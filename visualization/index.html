@@ -334,9 +334,14 @@ $(function () {
         d3.prismViz.updateTopicProb(topicSlider.noUiSlider.get());
     });
 
+    const params = new URLSearchParams(window.location.search);
+    let dataUrl = params.get("data") || params.get("dataUrl");
+    if (!dataUrl) dataUrl = `${config["authorID"]}.json`;
+    // if (!dataUrl) dataUrl = `openalex.json`;
+
     Viz.instance().then(function(v) {
         VizContext.instance().then(function(vc) {
-            d3.json(`2147343253.json`).then(data => {
+            d3.json(dataUrl).then(data => {
                 d3.prismViz.loadData(data, fields, config, v, vc);
             });
         });
