@@ -1,31 +1,38 @@
 ---
 name: "research_god"
-description: "把用户的研究兴趣转成 topic.json，批量从 OpenAlex 拉取论文并转换成 PrismViz 可视化数据。Invoke when user asks for literature search + dataset building + ~/GeneticFlowAgent/visualization."
+description: "Builds a literature dataset from OpenAlex and produces PrismViz-ready JSON + a visualization URL. Invoke when user asks for literature search + dataset building + visualization."
 ---
 
-# Paper ~/GeneticFlowAgent/visualization
+# Paper Visualization
+
+## Hard Rules
+
+- Do NOT write ad-hoc scripts for JSON processing.
+- Do NOT re-implement download/convert logic in the chat.
+- MUST use the existing scripts under `skills/research_god/scripts/`.
+- If a required script/arg is missing or fails, report the error and fix the existing script instead of creating new code.
 
 ## Goal
 
-- 给用户一个可以直接打开的可视化链接（`~/GeneticFlowAgent/visualization/index.html?data=...`），并在 `~/GeneticFlowAgent/visualization/data/<run_id>/` 下留下可复现的产物（topic.json、raw、result）。
+- Produce reproducible artifacts under `visualization/data/<run_id>/` and return a working URL that loads `data/<run_id>/result/<topic_id>.json`.
 
 ## What to Do When Invoked
 
-- 对下面每一步：开始时说明“正在做什么 + 为什么”，结束时报告“产物位置 + 关键统计（论文数/边数/cost_usd）”。
+- For each step: announce start/end, and report outputs and key stats (nodes/edges/cost_usd).
 
-1) 创建运行目录
+1) Create run directory
 
-- 在仓库目录 `~/GeneticFlowAgent/visualization/data/` 下创建一个不冲突的目录：`<run_id>/`
-- 目录结构：
-  - `~/GeneticFlowAgent/visualization/data/<run_id>/topic.json`
-  - `~/GeneticFlowAgent/visualization/data/<run_id>/raw/`（每个 topic 的原始 OpenAlex 返回）
-  - `~/GeneticFlowAgent/visualization/data/<run_id>/result/`（每个 topic 的可视化 JSON）
+- Create a unique `visualization/data/<run_id>/`.
+- Layout:
+  - `visualization/data/<run_id>/topic.json`
+  - `visualization/data/<run_id>/raw/`
+  - `visualization/data/<run_id>/result/`
 
-2) 从用户描述生成话题与关键词
+2) Build `topic.json`
 
-- 从用户描述中提取 2-3 个科研话题。
-- 每个话题生成一串关键词（词与词用空格隔开）。
-- 写入 `~/GeneticFlowAgent/visualization/data/<run_id>/topic.json`，格式：
+- Extract 2-3 topics from user intent.
+- For each topic, generate keywords separated by spaces.
+- Write to `visualization/data/<run_id>/topic.json`:
 
 ```
 {
@@ -35,9 +42,9 @@ description: "把用户的研究兴趣转成 topic.json，批量从 OpenAlex 拉
 }
 ```
 
-3) 批量下载 + 转换
+3) Download and convert
 
-- 执行脚本：
+- Execute:
 
 ```
 python3 ~/GeneticFlowAgent/visualization/skills/research_god/scripts/openalex_batch_download_convert.py \
@@ -52,11 +59,10 @@ python3 ~/GeneticFlowAgent/visualization/skills/research_god/scripts/openalex_ba
   --continue-on-error
 ```
 
-4) 给出可视化访问链接
+4) Return visualization URL
 
-- 可视化服务常驻，不用管。
-- 返回给用户链接：
+- Return:
 
 ```
-http://localhost:80/?data=data/<run_id>/result/0.json
+http://localhost:8000/visualization/index.html?data=data/<run_id>/result/0.json
 ```
