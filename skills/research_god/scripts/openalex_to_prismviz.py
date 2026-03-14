@@ -207,6 +207,7 @@ def convert_openalex_result(
             "topicDist": {str(topic_value): topic_dist_value},
             "venu": venue_str,
             "year": year_int,
+            "isKeyPaper": 1,
         }
         nodes.append(node)
 
