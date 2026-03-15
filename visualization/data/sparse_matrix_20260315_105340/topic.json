@@ -1,0 +1,12 @@
+{
+  "0": "sparse matrix multiplication SpMM SpMV sparse linear algebra",
+  "1": "sparse matrix dense matrix multiplication SDDMM GPU optimization",
+  "2": "sparse neural network sparse tensor operation deep learning",
+  "3": "block sparse matrix structured sparsity efficient computation",
+  "4": "sparse matrix format CSR CSC COO compressed storage",
+  "5": "sparse matrix factorization LU QR Cholesky direct solver",
+  "6": "iterative solver sparse system conjugate gradient preconditioner",
+  "7": "graph neural network GNN sparse adjacency matrix message passing",
+  "8": "sparse attention transformer long sequence efficient attention",
+  "9": "auto-tuning sparse kernel code generation compiler optimization"
+}
