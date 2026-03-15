@@ -1,0 +1,12 @@
+{
+  "0": "large language model training infrastructure distributed system",
+  "1": "LLM inference optimization serving system gpu cluster",
+  "2": "reinforcement learning from human feedback RLHF infrastructure",
+  "3": "parameter efficient fine tuning LoRA QLoRA training",
+  "4": "model parallelism data parallelism pipeline parallelism",
+  "5": "AI accelerator GPU TPU NPU neural network hardware",
+  "6": "deep learning framework PyTorch TensorFlow JAX distributed",
+  "7": "large model training stability fault tolerance checkpoint",
+  "8": "high performance computing HPC AI cluster scheduling",
+  "9": "neural architecture search NAS automated machine learning AutoML"
+}
