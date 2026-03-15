@@ -56,7 +56,8 @@ python3 /root/GeneticFlowAgent/skills/research_god/scripts/openalex_batch_downlo
   --mode OR \
   --max-keywords 4 \
   --per-page 40 --page 1 \
-  --filter "from_publication_date:2016-01-01,to_publication_date:2024-12-31" \
+  --begin-date 2016-01-01 \
+  --end-date 2024-12-31 \
   --topic-dist-value 1.0 \
   --continue-on-error \
   --history-path /root/GeneticFlowAgent/visualization/data/history.json \
@@ -65,6 +66,7 @@ python3 /root/GeneticFlowAgent/skills/research_god/scripts/openalex_batch_downlo
 
 - `--history-title` must be derived from user intent (10-20 chars preferred; no quotes inside).
 - `query` in history defaults to `<run_id>` (inferred from `--output-dir`).
+- If user specifies begin and end date, fill them into  `--begin-date` and `--end-date`. Make sure date format is `YYYY-MM-DD`.
 
 4) Return visualization URL
 

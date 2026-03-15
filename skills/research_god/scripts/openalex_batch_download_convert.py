@@ -4,7 +4,9 @@ import argparse
 import json
 import logging
 import os
+import re
 import sys
+from datetime import datetime
 from typing import Any, Dict, List, Optional, Set, Tuple
 
 
@@ -90,6 +92,109 @@ def _merge_node_fields(dst: Dict[str, Any], src: Dict[str, Any]) -> None:
     dst["referenced_works"] = merged_refs
 
 
+def _validate_date(date_str: str, arg_name: str) -> None:
+    if not date_str:
+        return
+    try:
+        datetime.strptime(date_str, "%Y-%m-%d")
+    except ValueError:
+        raise SystemExit(f"{arg_name} must be in YYYY-MM-DD format")
+
+
+def _build_openalex_filter(raw_filter: str, begin_date: str, end_date: str) -> str:
+    parts: List[str] = []
+    raw = (raw_filter or "").strip().strip(",")
+
+    if begin_date and "from_publication_date:" not in raw and "from_publication_year:" not in raw:
+        parts.append(f"from_publication_date:{begin_date}")
+    if end_date and "to_publication_date:" not in raw and "to_publication_year:" not in raw:
+        parts.append(f"to_publication_date:{end_date}")
+
+    if raw:
+        parts.append(raw)
+
+    return ",".join(p for p in parts if p)
+
+
+def _extract_years_from_filter(filter_str: str) -> Tuple[Optional[int], Optional[int]]:
+    if not filter_str:
+        return (None, None)
+
+    def find_year(keys: List[str]) -> Optional[int]:
+        for k in keys:
+            m = re.search(rf"(?:^|,){re.escape(k)}:(\\d{{4}})(?:-|,|$)", filter_str)
+            if m:
+                try:
+                    return int(m.group(1))
+                except ValueError:
+                    return None
+        return None
+
+    start_year = find_year(["from_publication_date", "from_publication_year"])
+    end_year = find_year(["to_publication_date", "to_publication_year"])
+
+    if start_year is None and end_year is None:
+        y = find_year(["publication_year"])
+        if y is not None:
+            return (y, y)
+
+    return (start_year, end_year)
+
+
+def _infer_history_query(output_dir: str) -> str:
+    out = os.path.normpath(output_dir)
+    base = os.path.basename(out)
+    if base == "result":
+        parent = os.path.basename(os.path.dirname(out))
+        return parent or base
+    return base or out
+
+
+def _append_history_record(
+    history_path: str,
+    title: str,
+    query: str,
+    start_year: Optional[int],
+    end_year: Optional[int],
+    paper_count: int,
+    started_at: str,
+    finished_at: str,
+) -> None:
+    if not history_path:
+        return
+
+    os.makedirs(os.path.dirname(os.path.abspath(history_path)), exist_ok=True)
+
+    payload: Any = []
+    if os.path.exists(history_path):
+        try:
+            with open(history_path, "r", encoding="utf-8") as f:
+                payload = json.load(f)
+        except json.JSONDecodeError:
+            payload = []
+
+    if not isinstance(payload, list):
+        payload = []
+
+    record: Dict[str, Any] = {
+        "title": title,
+        "query": query,
+        "startYear": start_year,
+        "endYear": end_year,
+        "source": "openalex",
+        "status": "finished",
+        "paperCount": int(paper_count),
+        "startedAt": started_at,
+        "finishedAt": finished_at,
+    }
+
+    payload.append(record)
+
+    with open(history_path, "w", encoding="utf-8") as f:
+        json.dump(payload, f, ensure_ascii=False, indent=2)
+        f.write("\n")
+
+
 def main(argv: Optional[List[str]] = None) -> int:
     parser = argparse.ArgumentParser(
         prog="openalex_batch_download_convert",
@@ -100,11 +205,26 @@ def main(argv: Optional[List[str]] = None) -> int:
     parser.add_argument("--output-dir", required=True, help="Directory to write per-topic PrismViz JSON")
     parser.add_argument("--raw-output-dir", default="", help="Optional directory to write raw OpenAlex responses")
 
+    parser.add_argument(
+        "--history-path",
+        default="",
+        help="Optional path to visualization/data/history.json (a JSON list). If set, append a finished run record.",
+    )
+    parser.add_argument("--history-title", default="", help="Title recorded into history.json")
+    parser.add_argument(
+        "--history-query",
+        default="",
+        help="Query id recorded into history.json. If empty, inferred from --output-dir.",
+    )
+
     parser.add_argument("--mode", choices=["AND", "OR"], default="OR", help="How to combine topic keywords")
     parser.add_argument("--exclude", action="append", default=[], help="Exclude term (NOT). Repeatable.")
     parser.add_argument("--max-keywords", type=int, default=8, help="Max keywords used per topic (default: 8)")
 
-    parser.add_argument("--filter", default="", help="OpenAlex filter string")
+    parser.add_argument("--begin-date", default="", help="Publication begin date (YYYY-MM-DD)")
+    parser.add_argument("--end-date", default="", help="Publication end date (YYYY-MM-DD)")
+    parser.add_argument("--filter", default="", help="Additional OpenAlex filter string (comma-separated)")
+
     parser.add_argument("--per-page", type=int, default=25, help="Results per page (1-100)")
     parser.add_argument("--page", type=int, default=1, help="Page number (1-500)")
     parser.add_argument("--timeout", type=int, default=30, help="HTTP timeout in seconds")
@@ -146,6 +266,13 @@ def main(argv: Optional[List[str]] = None) -> int:
     )
 
     args = parser.parse_args(argv)
+
+    _validate_date(args.begin_date, "--begin-date")
+    _validate_date(args.end_date, "--end-date")
+
+    filter_str = _build_openalex_filter(args.filter, args.begin_date, args.end_date)
+
+    started_at = datetime.now().strftime("%Y-%m-%d %H:%M")
 
     logging.basicConfig(
         level=getattr(logging, args.log_level),
@@ -200,8 +327,8 @@ def main(argv: Optional[List[str]] = None) -> int:
                 "per_page": str(args.per_page),
                 "page": str(args.page),
             }
-            if args.filter:
-                params["filter"] = args.filter
+            if filter_str:
+                params["filter"] = filter_str
             if args.api_key:
                 params["api_key"] = args.api_key
             if args.mailto:
@@ -325,6 +452,29 @@ def main(argv: Optional[List[str]] = None) -> int:
     with open(merged_path, "w", encoding="utf-8") as f:
         json.dump({"nodes": merged_nodes, "edges": merged_edges}, f, ensure_ascii=False, indent=2)
         f.write("\n")
+
+    finished_at = datetime.now().strftime("%Y-%m-%d %H:%M")
+    history_query = args.history_query.strip() or _infer_history_query(args.output_dir)
+
+    start_year: Optional[int] = None
+    end_year: Optional[int] = None
+    if args.begin_date:
+        start_year = int(args.begin_date[:4])
+    if args.end_date:
+        end_year = int(args.end_date[:4])
+    if start_year is None and end_year is None:
+        start_year, end_year = _extract_years_from_filter(filter_str)
+
+    _append_history_record(
+        history_path=args.history_path.strip(),
+        title=args.history_title.strip(),
+        query=history_query,
+        start_year=start_year,
+        end_year=end_year,
+        paper_count=len(merged_nodes),
+        started_at=started_at,
+        finished_at=finished_at,
+    )
 
     logger.info(
         "Done. topics=%d ok=%d failed=%d output_dir=%s merged_nodes=%d merged_edges=%d",
