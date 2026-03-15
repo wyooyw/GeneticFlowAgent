@@ -1,0 +1,4809 @@
+{
+  "meta": {
+    "count": 10840033,
+    "db_response_time_ms": 388,
+    "page": 1,
+    "per_page": 5,
+    "groups_count": null,
+    "cost_usd": 0.001
+  },
+  "results": [
+    {
+      "id": "https://openalex.org/W3038568908",
+      "doi": "https://doi.org/10.1585/pfr.15.2402039",
+      "title": "Radiation Resistant Camera System for Monitoring Deuterium Plasma Discharges in the Large Helical Device",
+      "display_name": "Radiation Resistant Camera System for Monitoring Deuterium Plasma Discharges in the Large Helical Device",
+      "relevance_score": 1885.9056,
+      "publication_year": 2020,
+      "publication_date": "2020-06-08",
+      "ids": {
+        "openalex": "https://openalex.org/W3038568908",
+        "doi": "https://doi.org/10.1585/pfr.15.2402039",
+        "mag": "3038568908"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "doi:10.1585/pfr.15.2402039",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1585/pfr.15.2402039",
+        "pdf_url": "https://www.jstage.jst.go.jp/article/pfr/15/0/15_2402039/_pdf",
+        "source": {
+          "id": "https://openalex.org/S46033839",
+          "display_name": "Plasma and Fusion Research",
+          "issn_l": "1880-6821",
+          "issn": [
+            "1880-6821"
+          ],
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4328135220",
+          "host_organization_name": "Japan Society of Plasma Science and Nuclear Fusion Research",
+          "host_organization_lineage": [
+            "https://openalex.org/P4328135220"
+          ],
+          "host_organization_lineage_names": [
+            "Japan Society of Plasma Science and Nuclear Fusion Research"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Plasma and Fusion Research",
+        "raw_type": "journal-article"
+      },
+      "type": "article",
+      "indexed_in": [
+        "crossref"
+      ],
+      "open_access": {
+        "is_oa": true,
+        "oa_status": "diamond",
+        "oa_url": "https://www.jstage.jst.go.jp/article/pfr/15/0/15_2402039/_pdf",
+        "any_repository_has_fulltext": false
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5039600762",
+            "display_name": "M. Shoji",
+            "orcid": "https://orcid.org/0000-0003-0655-7347"
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I199525922",
+              "display_name": "National Institutes of Natural Sciences",
+              "ror": "https://ror.org/055n47h92",
+              "country_code": "JP",
+              "type": "facility",
+              "lineage": [
+                "https://openalex.org/I1319490839",
+                "https://openalex.org/I199525922"
+              ]
+            },
+            {
+              "id": "https://openalex.org/I4210108322",
+              "display_name": "National Institute for Fusion Science",
+              "ror": "https://ror.org/01t3wyv61",
+              "country_code": "JP",
+              "type": "facility",
+              "lineage": [
+                "https://openalex.org/I1319490839",
+                "https://openalex.org/I199525922",
+                "https://openalex.org/I4210108322"
+              ]
+            }
+          ],
+          "countries": [
+            "JP"
+          ],
+          "is_corresponding": true,
+          "raw_author_name": "Mamoru SHOJI",
+          "raw_affiliation_strings": [
+            "National Institute for Fusion Science, National Institutes of Natural Sciences"
+          ],
+          "affiliations": [
+            {
+              "raw_affiliation_string": "National Institute for Fusion Science, National Institutes of Natural Sciences",
+              "institution_ids": [
+                "https://openalex.org/I4210108322",
+                "https://openalex.org/I199525922"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "last",
+          "author": {
+            "id": null,
+            "display_name": "LHD Experiment Group",
+            "orcid": null
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I199525922",
+              "display_name": "National Institutes of Natural Sciences",
+              "ror": "https://ror.org/055n47h92",
+              "country_code": "JP",
+              "type": "facility",
+              "lineage": [
+                "https://openalex.org/I1319490839",
+                "https://openalex.org/I199525922"
+              ]
+            },
+            {
+              "id": "https://openalex.org/I4210108322",
+              "display_name": "National Institute for Fusion Science",
+              "ror": "https://ror.org/01t3wyv61",
+              "country_code": "JP",
+              "type": "facility",
+              "lineage": [
+                "https://openalex.org/I1319490839",
+                "https://openalex.org/I199525922",
+                "https://openalex.org/I4210108322"
+              ]
+            }
+          ],
+          "countries": [
+            "JP"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "LHD Experiment Group",
+          "raw_affiliation_strings": [
+            "National Institute for Fusion Science, National Institutes of Natural Sciences"
+          ],
+          "affiliations": [
+            {
+              "raw_affiliation_string": "National Institute for Fusion Science, National Institutes of Natural Sciences",
+              "institution_ids": [
+                "https://openalex.org/I4210108322",
+                "https://openalex.org/I199525922"
+              ]
+            }
+          ]
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 1,
+      "institutions_distinct_count": 2,
+      "corresponding_author_ids": [
+        "https://openalex.org/A5039600762"
+      ],
+      "corresponding_institution_ids": [
+        "https://openalex.org/I199525922",
+        "https://openalex.org/I4210108322"
+      ],
+      "apc_list": null,
+      "apc_paid": null,
+      "fwci": 1.1363,
+      "has_fulltext": true,
+      "cited_by_count": 801217,
+      "citation_normalized_percentile": {
+        "value": 0.86542163,
+        "is_in_top_1_percent": false,
+        "is_in_top_10_percent": false
+      },
+      "cited_by_percentile_year": {
+        "min": 89,
+        "max": 100
+      },
+      "biblio": {
+        "volume": "15",
+        "issue": "0",
+        "first_page": "2402039",
+        "last_page": "2402039"
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T10346",
+        "display_name": "Magnetic confinement fusion research",
+        "score": 0.9991000294685364,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3106",
+          "display_name": "Nuclear and High Energy Physics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/31",
+          "display_name": "Physics and Astronomy"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T10346",
+          "display_name": "Magnetic confinement fusion research",
+          "score": 0.9991000294685364,
+          "subfield": {
+            "id": "https://openalex.org/subfields/3106",
+            "display_name": "Nuclear and High Energy Physics"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/31",
+            "display_name": "Physics and Astronomy"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T11949",
+          "display_name": "Nuclear Physics and Applications",
+          "score": 0.9987999796867371,
+          "subfield": {
+            "id": "https://openalex.org/subfields/3108",
+            "display_name": "Radiation"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/31",
+            "display_name": "Physics and Astronomy"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T10592",
+          "display_name": "Fusion materials and technologies",
+          "score": 0.998199999332428,
+          "subfield": {
+            "id": "https://openalex.org/subfields/2505",
+            "display_name": "Materials Chemistry"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/25",
+            "display_name": "Materials Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/radiation",
+          "display_name": "Radiation",
+          "score": 0.7057818174362183
+        },
+        {
+          "id": "https://openalex.org/keywords/plasma",
+          "display_name": "Plasma",
+          "score": 0.5598242878913879
+        },
+        {
+          "id": "https://openalex.org/keywords/materials-science",
+          "display_name": "Materials science",
+          "score": 0.5517664551734924
+        },
+        {
+          "id": "https://openalex.org/keywords/optics",
+          "display_name": "Optics",
+          "score": 0.5239154100418091
+        },
+        {
+          "id": "https://openalex.org/keywords/shield",
+          "display_name": "Shield",
+          "score": 0.5098416209220886
+        },
+        {
+          "id": "https://openalex.org/keywords/neutron",
+          "display_name": "Neutron",
+          "score": 0.4559711515903473
+        },
+        {
+          "id": "https://openalex.org/keywords/nuclear-engineering",
+          "display_name": "Nuclear engineering",
+          "score": 0.3836207985877991
+        },
+        {
+          "id": "https://openalex.org/keywords/physics",
+          "display_name": "Physics",
+          "score": 0.32291728258132935
+        },
+        {
+          "id": "https://openalex.org/keywords/nuclear-physics",
+          "display_name": "Nuclear physics",
+          "score": 0.13794386386871338
+        },
+        {
+          "id": "https://openalex.org/keywords/geology",
+          "display_name": "Geology",
+          "score": 0.05549171566963196
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C153385146",
+          "wikidata": "https://www.wikidata.org/wiki/Q18335",
+          "display_name": "Radiation",
+          "level": 2,
+          "score": 0.7057818174362183
+        },
+        {
+          "id": "https://openalex.org/C82706917",
+          "wikidata": "https://www.wikidata.org/wiki/Q10251",
+          "display_name": "Plasma",
+          "level": 2,
+          "score": 0.5598242878913879
+        },
+        {
+          "id": "https://openalex.org/C192562407",
+          "wikidata": "https://www.wikidata.org/wiki/Q228736",
+          "display_name": "Materials science",
+          "level": 0,
+          "score": 0.5517664551734924
+        },
+        {
+          "id": "https://openalex.org/C120665830",
+          "wikidata": "https://www.wikidata.org/wiki/Q14620",
+          "display_name": "Optics",
+          "level": 1,
+          "score": 0.5239154100418091
+        },
+        {
+          "id": "https://openalex.org/C138081364",
+          "wikidata": "https://www.wikidata.org/wiki/Q852013",
+          "display_name": "Shield",
+          "level": 2,
+          "score": 0.5098416209220886
+        },
+        {
+          "id": "https://openalex.org/C152568617",
+          "wikidata": "https://www.wikidata.org/wiki/Q2348",
+          "display_name": "Neutron",
+          "level": 2,
+          "score": 0.4559711515903473
+        },
+        {
+          "id": "https://openalex.org/C116915560",
+          "wikidata": "https://www.wikidata.org/wiki/Q83504",
+          "display_name": "Nuclear engineering",
+          "level": 1,
+          "score": 0.3836207985877991
+        },
+        {
+          "id": "https://openalex.org/C121332964",
+          "wikidata": "https://www.wikidata.org/wiki/Q413",
+          "display_name": "Physics",
+          "level": 0,
+          "score": 0.32291728258132935
+        },
+        {
+          "id": "https://openalex.org/C185544564",
+          "wikidata": "https://www.wikidata.org/wiki/Q81197",
+          "display_name": "Nuclear physics",
+          "level": 1,
+          "score": 0.13794386386871338
+        },
+        {
+          "id": "https://openalex.org/C127313418",
+          "wikidata": "https://www.wikidata.org/wiki/Q1069",
+          "display_name": "Geology",
+          "level": 0,
+          "score": 0.05549171566963196
+        },
+        {
+          "id": "https://openalex.org/C5900021",
+          "wikidata": "https://www.wikidata.org/wiki/Q163082",
+          "display_name": "Petrology",
+          "level": 1,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C127413603",
+          "wikidata": "https://www.wikidata.org/wiki/Q11023",
+          "display_name": "Engineering",
+          "level": 0,
+          "score": 0.0
+        }
+      ],
+      "mesh": [],
+      "locations_count": 1,
+      "locations": [
+        {
+          "id": "doi:10.1585/pfr.15.2402039",
+          "is_oa": true,
+          "landing_page_url": "https://doi.org/10.1585/pfr.15.2402039",
+          "pdf_url": "https://www.jstage.jst.go.jp/article/pfr/15/0/15_2402039/_pdf",
+          "source": {
+            "id": "https://openalex.org/S46033839",
+            "display_name": "Plasma and Fusion Research",
+            "issn_l": "1880-6821",
+            "issn": [
+              "1880-6821"
+            ],
+            "is_oa": true,
+            "is_in_doaj": false,
+            "is_core": true,
+            "host_organization": "https://openalex.org/P4328135220",
+            "host_organization_name": "Japan Society of Plasma Science and Nuclear Fusion Research",
+            "host_organization_lineage": [
+              "https://openalex.org/P4328135220"
+            ],
+            "host_organization_lineage_names": [
+              "Japan Society of Plasma Science and Nuclear Fusion Research"
+            ],
+            "type": "journal"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "Plasma and Fusion Research",
+          "raw_type": "journal-article"
+        }
+      ],
+      "best_oa_location": {
+        "id": "doi:10.1585/pfr.15.2402039",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1585/pfr.15.2402039",
+        "pdf_url": "https://www.jstage.jst.go.jp/article/pfr/15/0/15_2402039/_pdf",
+        "source": {
+          "id": "https://openalex.org/S46033839",
+          "display_name": "Plasma and Fusion Research",
+          "issn_l": "1880-6821",
+          "issn": [
+            "1880-6821"
+          ],
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4328135220",
+          "host_organization_name": "Japan Society of Plasma Science and Nuclear Fusion Research",
+          "host_organization_lineage": [
+            "https://openalex.org/P4328135220"
+          ],
+          "host_organization_lineage_names": [
+            "Japan Society of Plasma Science and Nuclear Fusion Research"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Plasma and Fusion Research",
+        "raw_type": "journal-article"
+      },
+      "sustainable_development_goals": [
+        {
+          "score": 0.8799999952316284,
+          "id": "https://metadata.un.org/sdg/7",
+          "display_name": "Affordable and clean energy"
+        }
+      ],
+      "awards": [],
+      "funders": [],
+      "has_content": {
+        "grobid_xml": true,
+        "pdf": true
+      },
+      "content_urls": {
+        "pdf": "https://content.openalex.org/works/W3038568908.pdf",
+        "grobid_xml": "https://content.openalex.org/works/W3038568908.grobid-xml"
+      },
+      "referenced_works_count": 8,
+      "referenced_works": [
+        "https://openalex.org/W2069091362",
+        "https://openalex.org/W2151240562",
+        "https://openalex.org/W2527753843",
+        "https://openalex.org/W2590699823",
+        "https://openalex.org/W2783171299",
+        "https://openalex.org/W2806477398",
+        "https://openalex.org/W2922014310",
+        "https://openalex.org/W2945236265"
+      ],
+      "related_works": [
+        "https://openalex.org/W2606430476",
+        "https://openalex.org/W2069389872",
+        "https://openalex.org/W2024680443",
+        "https://openalex.org/W1992734408",
+        "https://openalex.org/W2909752308",
+        "https://openalex.org/W2074503354",
+        "https://openalex.org/W2353473218",
+        "https://openalex.org/W2060642378",
+        "https://openalex.org/W2094345694",
+        "https://openalex.org/W2889162861"
+      ],
+      "abstract_inverted_index": {
+        "Radiation": [
+          0
+        ],
+        "resistant": [
+          1,
+          196
+        ],
+        "camera": [
+          2
+        ],
+        "system": [
+          3,
+          18
+        ],
+        "was": [
+          4,
+          98
+        ],
+        "constructed": [
+          5
+        ],
+        "for": [
+          6
+        ],
+        "monitoring": [
+          7
+        ],
+        "deuterium": [
+          8
+        ],
+        "plasma": [
+          9,
+          44
+        ],
+        "discharges": [
+          10
+        ],
+        "in": [
+          11,
+          42,
+          52,
+          69,
+          83,
+          118
+        ],
+        "the": [
+          12,
+          43,
+          47,
+          62,
+          88,
+          91,
+          94,
+          105,
+          108,
+          112,
+          115,
+          119,
+          124,
+          129,
+          132,
+          139,
+          142,
+          145,
+          151,
+          159,
+          163,
+          174,
+          178,
+          187,
+          191,
+          194
+        ],
+        "Large": [
+          13
+        ],
+        "Helical": [
+          14
+        ],
+        "Device": [
+          15
+        ],
+        "(LHD).": [
+          16
+        ],
+        "This": [
+          17,
+          181
+        ],
+        "has": [
+          19,
+          134
+        ],
+        "contributed": [
+          20
+        ],
+        "to": [
+          21,
+          32,
+          123,
+          162,
+          186
+        ],
+        "safe": [
+          22
+        ],
+        "operation": [
+          23
+        ],
+        "during": [
+          24
+        ],
+        "two": [
+          25
+        ],
+        "experimental": [
+          26
+        ],
+        "campaigns": [
+          27
+        ],
+        "without": [
+          28
+        ],
+        "serious": [
+          29
+        ],
+        "problems": [
+          30
+        ],
+        "due": [
+          31
+        ],
+        "radiation": [
+          33,
+          95,
+          109,
+          143,
+          160,
+          195
+        ],
+        "(neutrons": [
+          34
+        ],
+        "and": [
+          35,
+          111
+        ],
+        "gamma-rays).": [
+          36
+        ],
+        "The": [
+          37,
+          64
+        ],
+        "cameras": [
+          38,
+          65,
+          133
+        ],
+        "steadily": [
+          39
+        ],
+        "functioned": [
+          40
+        ],
+        "even": [
+          41
+        ],
+        "discharge": [
+          45
+        ],
+        "with": [
+          46,
+          78,
+          158
+        ],
+        "maximum": [
+          48
+        ],
+        "neutron": [
+          49
+        ],
+        "emission": [
+          50
+        ],
+        "rate": [
+          51
+        ],
+        "FY": [
+          53
+        ],
+        "2017,": [
+          54
+        ],
+        "though": [
+          55
+        ],
+        "some": [
+          56,
+          169
+        ],
+        "bright": [
+          57,
+          154,
+          170
+        ],
+        "specks": [
+          58,
+          155,
+          171
+        ],
+        "temporarily": [
+          59
+        ],
+        "appeared": [
+          60
+        ],
+        "on": [
+          61,
+          144,
+          177
+        ],
+        "images.": [
+          63
+        ],
+        "have": [
+          66
+        ],
+        "been": [
+          67,
+          135
+        ],
+        "installed": [
+          68
+        ],
+        "shield": [
+          70,
+          92,
+          120
+        ],
+        "boxes": [
+          71,
+          76
+        ],
+        "which": [
+          72,
+          103,
+          165
+        ],
+        "consist": [
+          73
+        ],
+        "of": [
+          74,
+          90,
+          107,
+          114,
+          128,
+          131,
+          138,
+          141,
+          153,
+          190,
+          193
+        ],
+        "lead": [
+          75
+        ],
+        "covered": [
+          77
+        ],
+        "10%": [
+          79
+        ],
+        "borated": [
+          80
+        ],
+        "polyethylene": [
+          81
+        ],
+        "blocks": [
+          82
+        ],
+        "all": [
+          84
+        ],
+        "directions.": [
+          85
+        ],
+        "For": [
+          86
+        ],
+        "optimizing": [
+          87
+        ],
+        "design": [
+          89
+        ],
+        "box,": [
+          93
+        ],
+        "flux": [
+          96,
+          110,
+          161
+        ],
+        "distribution": [
+          97
+        ],
+        "calculated": [
+          99
+        ],
+        "by": [
+          100,
+          173
+        ],
+        "MCNP-6": [
+          101
+        ],
+        "code,": [
+          102
+        ],
+        "reveals": [
+          104
+        ],
+        "reduction": [
+          106
+        ],
+        "change": [
+          113
+        ],
+        "energy": [
+          116
+        ],
+        "spectra": [
+          117
+        ],
+        "box.": [
+          121
+        ],
+        "Thanks": [
+          122
+        ],
+        "optimization,": [
+          125
+        ],
+        "significant": [
+          126
+        ],
+        "extension": [
+          127,
+          189
+        ],
+        "lifetime": [
+          130,
+          192
+        ],
+        "realized.": [
+          136
+        ],
+        "Investigation": [
+          137
+        ],
+        "influence": [
+          140
+        ],
+        "CCD": [
+          146
+        ],
+        "image": [
+          147,
+          179
+        ],
+        "sensor": [
+          148
+        ],
+        "shows": [
+          149
+        ],
+        "that": [
+          150,
+          168
+        ],
+        "number": [
+          152
+        ],
+        "generally": [
+          156
+        ],
+        "increases": [
+          157
+        ],
+        "camera,": [
+          164
+        ],
+        "also": [
+          166,
+          183
+        ],
+        "indicates": [
+          167
+        ],
+        "disappear": [
+          172
+        ],
+        "self-annealing": [
+          175
+        ],
+        "process": [
+          176
+        ],
+        "sensor.": [
+          180
+        ],
+        "phenomenon": [
+          182
+        ],
+        "highly": [
+          184
+        ],
+        "contributes": [
+          185
+        ],
+        "further": [
+          188
+        ],
+        "cameras.": [
+          197
+        ]
+      },
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 2
+        },
+        {
+          "year": 2025,
+          "cited_by_count": 801210
+        },
+        {
+          "year": 2024,
+          "cited_by_count": 2
+        },
+        {
+          "year": 2022,
+          "cited_by_count": 2
+        },
+        {
+          "year": 2021,
+          "cited_by_count": 1
+        }
+      ],
+      "updated_date": "2026-03-05T09:29:38.588285",
+      "created_date": "2025-10-10T00:00:00"
+    },
+    {
+      "id": "https://openalex.org/W4281564584",
+      "doi": "https://doi.org/10.29333/ajqr/12085",
+      "title": "The Coding Manual for Qualitative Researchers",
+      "display_name": "The Coding Manual for Qualitative Researchers",
+      "relevance_score": 1543.8278,
+      "publication_year": 2022,
+      "publication_date": "2022-05-13",
+      "ids": {
+        "openalex": "https://openalex.org/W4281564584",
+        "doi": "https://doi.org/10.29333/ajqr/12085"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "doi:10.29333/ajqr/12085",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.29333/ajqr/12085",
+        "pdf_url": "https://www.ajqr.org/download/the-coding-manual-for-qualitative-researchers-12085.pdf",
+        "source": {
+          "id": "https://openalex.org/S4210221640",
+          "display_name": "American Journal of Qualitative Research",
+          "issn_l": "2576-2141",
+          "issn": [
+            "2576-2141"
+          ],
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": null,
+          "host_organization_name": null,
+          "host_organization_lineage": [],
+          "host_organization_lineage_names": [],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "American Journal of Qualitative Research",
+        "raw_type": "journal-article"
+      },
+      "type": "article",
+      "indexed_in": [
+        "crossref"
+      ],
+      "open_access": {
+        "is_oa": true,
+        "oa_status": "diamond",
+        "oa_url": "https://www.ajqr.org/download/the-coding-manual-for-qualitative-researchers-12085.pdf",
+        "any_repository_has_fulltext": false
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5039501295",
+            "display_name": "Maria Lungu",
+            "orcid": "https://orcid.org/0000-0003-0331-8658"
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I63772739",
+              "display_name": "Florida Atlantic University",
+              "ror": "https://ror.org/05p8w6387",
+              "country_code": "US",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I63772739"
+              ]
+            }
+          ],
+          "countries": [
+            "US"
+          ],
+          "is_corresponding": true,
+          "raw_author_name": "Maria Lungu",
+          "raw_affiliation_strings": [
+            "Florida Atlantic University, Boca Raton, USA"
+          ],
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Florida Atlantic University, Boca Raton, USA",
+              "institution_ids": [
+                "https://openalex.org/I63772739"
+              ]
+            }
+          ]
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 1,
+      "institutions_distinct_count": 1,
+      "corresponding_author_ids": [
+        "https://openalex.org/A5039501295"
+      ],
+      "corresponding_institution_ids": [
+        "https://openalex.org/I63772739"
+      ],
+      "apc_list": null,
+      "apc_paid": null,
+      "fwci": 1045.5369,
+      "has_fulltext": true,
+      "cited_by_count": 10910,
+      "citation_normalized_percentile": {
+        "value": 1.0,
+        "is_in_top_1_percent": true,
+        "is_in_top_10_percent": true
+      },
+      "cited_by_percentile_year": {
+        "min": 98,
+        "max": 100
+      },
+      "biblio": {
+        "volume": "6",
+        "issue": "1",
+        "first_page": "232",
+        "last_page": "237"
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T12010",
+        "display_name": "Evaluation and Performance Assessment",
+        "score": 0.5220000147819519,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1803",
+          "display_name": "Management Science and Operations Research"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/18",
+          "display_name": "Decision Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T12010",
+          "display_name": "Evaluation and Performance Assessment",
+          "score": 0.5220000147819519,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1803",
+            "display_name": "Management Science and Operations Research"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/18",
+            "display_name": "Decision Sciences"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/2",
+            "display_name": "Social Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/coding",
+          "display_name": "Coding (social sciences)",
+          "score": 0.5862216949462891
+        },
+        {
+          "id": "https://openalex.org/keywords/computer-science",
+          "display_name": "Computer science",
+          "score": 0.4509083032608032
+        },
+        {
+          "id": "https://openalex.org/keywords/psychology",
+          "display_name": "Psychology",
+          "score": 0.3626396059989929
+        },
+        {
+          "id": "https://openalex.org/keywords/sociology",
+          "display_name": "Sociology",
+          "score": 0.17221763730049133
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C179518139",
+          "wikidata": "https://www.wikidata.org/wiki/Q5140297",
+          "display_name": "Coding (social sciences)",
+          "level": 2,
+          "score": 0.5862216949462891
+        },
+        {
+          "id": "https://openalex.org/C41008148",
+          "wikidata": "https://www.wikidata.org/wiki/Q21198",
+          "display_name": "Computer science",
+          "level": 0,
+          "score": 0.4509083032608032
+        },
+        {
+          "id": "https://openalex.org/C15744967",
+          "wikidata": "https://www.wikidata.org/wiki/Q9418",
+          "display_name": "Psychology",
+          "level": 0,
+          "score": 0.3626396059989929
+        },
+        {
+          "id": "https://openalex.org/C144024400",
+          "wikidata": "https://www.wikidata.org/wiki/Q21201",
+          "display_name": "Sociology",
+          "level": 0,
+          "score": 0.17221763730049133
+        },
+        {
+          "id": "https://openalex.org/C36289849",
+          "wikidata": "https://www.wikidata.org/wiki/Q34749",
+          "display_name": "Social science",
+          "level": 1,
+          "score": 0.0
+        }
+      ],
+      "mesh": [],
+      "locations_count": 1,
+      "locations": [
+        {
+          "id": "doi:10.29333/ajqr/12085",
+          "is_oa": true,
+          "landing_page_url": "https://doi.org/10.29333/ajqr/12085",
+          "pdf_url": "https://www.ajqr.org/download/the-coding-manual-for-qualitative-researchers-12085.pdf",
+          "source": {
+            "id": "https://openalex.org/S4210221640",
+            "display_name": "American Journal of Qualitative Research",
+            "issn_l": "2576-2141",
+            "issn": [
+              "2576-2141"
+            ],
+            "is_oa": true,
+            "is_in_doaj": false,
+            "is_core": true,
+            "host_organization": null,
+            "host_organization_name": null,
+            "host_organization_lineage": [],
+            "host_organization_lineage_names": [],
+            "type": "journal"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "American Journal of Qualitative Research",
+          "raw_type": "journal-article"
+        }
+      ],
+      "best_oa_location": {
+        "id": "doi:10.29333/ajqr/12085",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.29333/ajqr/12085",
+        "pdf_url": "https://www.ajqr.org/download/the-coding-manual-for-qualitative-researchers-12085.pdf",
+        "source": {
+          "id": "https://openalex.org/S4210221640",
+          "display_name": "American Journal of Qualitative Research",
+          "issn_l": "2576-2141",
+          "issn": [
+            "2576-2141"
+          ],
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": null,
+          "host_organization_name": null,
+          "host_organization_lineage": [],
+          "host_organization_lineage_names": [],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "American Journal of Qualitative Research",
+        "raw_type": "journal-article"
+      },
+      "sustainable_development_goals": [],
+      "awards": [],
+      "funders": [],
+      "has_content": {
+        "grobid_xml": true,
+        "pdf": true
+      },
+      "content_urls": {
+        "pdf": "https://content.openalex.org/works/W4281564584.pdf",
+        "grobid_xml": "https://content.openalex.org/works/W4281564584.grobid-xml"
+      },
+      "referenced_works_count": 14,
+      "referenced_works": [
+        "https://openalex.org/W377384883",
+        "https://openalex.org/W1516534262",
+        "https://openalex.org/W1982061482",
+        "https://openalex.org/W2146691185",
+        "https://openalex.org/W2149868499",
+        "https://openalex.org/W2495048003",
+        "https://openalex.org/W2790809828",
+        "https://openalex.org/W2897741882",
+        "https://openalex.org/W2971035958",
+        "https://openalex.org/W3002619043",
+        "https://openalex.org/W3021240172",
+        "https://openalex.org/W3035012436",
+        "https://openalex.org/W6723426897",
+        "https://openalex.org/W6755787775"
+      ],
+      "related_works": [
+        "https://openalex.org/W2748952813",
+        "https://openalex.org/W2390279801",
+        "https://openalex.org/W2358668433",
+        "https://openalex.org/W2376932109",
+        "https://openalex.org/W2001405890",
+        "https://openalex.org/W2382290278",
+        "https://openalex.org/W2350741829",
+        "https://openalex.org/W2530322880",
+        "https://openalex.org/W1596801655",
+        "https://openalex.org/W2359140296"
+      ],
+      "abstract_inverted_index": {
+        "The": [
+          0,
+          35,
+          52
+        ],
+        "Coding": [
+          1
+        ],
+        "Manual": [
+          2
+        ],
+        "fourth": [
+          3,
+          36,
+          53
+        ],
+        "edition": [
+          4,
+          37,
+          54
+        ],
+        "is": [
+          5,
+          55
+        ],
+        "reformatted": [
+          6
+        ],
+        "to": [
+          7,
+          17,
+          108
+        ],
+        "15": [
+          8
+        ],
+        "chapters": [
+          9,
+          19
+        ],
+        "and": [
+          10,
+          47,
+          77,
+          91,
+          112
+        ],
+        "divided": [
+          11
+        ],
+        "into": [
+          12
+        ],
+        "three": [
+          13
+        ],
+        "parts,": [
+          14
+        ],
+        "as": [
+          15,
+          58
+        ],
+        "opposed": [
+          16
+        ],
+        "six": [
+          18
+        ],
+        "in": [
+          20,
+          103
+        ],
+        "the": [
+          21,
+          49,
+          68,
+          89,
+          105
+        ],
+        "third": [
+          22
+        ],
+        "edition.": [
+          23
+        ],
+        "This": [
+          24,
+          80
+        ],
+        "provides": [
+          25
+        ],
+        "readers": [
+          26
+        ],
+        "with": [
+          27,
+          74
+        ],
+        "more": [
+          28,
+          31
+        ],
+        "straightforward": [
+          29
+        ],
+        "yet": [
+          30
+        ],
+        "detailed": [
+          32,
+          92
+        ],
+        "sectional": [
+          33
+        ],
+        "references.": [
+          34
+        ],
+        "also": [
+          38
+        ],
+        "introduces": [
+          39
+        ],
+        "two": [
+          40
+        ],
+        "new": [
+          41
+        ],
+        "first-cycle": [
+          42
+        ],
+        "coding": [
+          43,
+          65,
+          118
+        ],
+        "methods,": [
+          44
+        ],
+        "'metaphor": [
+          45
+        ],
+        "coding'": [
+          46
+        ],
+        "'theming": [
+          48
+        ],
+        "data": [
+          50
+        ],
+        "categorically.'": [
+          51
+        ],
+        "aptly": [
+          56
+        ],
+        "suited": [
+          57
+        ],
+        "a": [
+          59,
+          71
+        ],
+        "guide": [
+          60
+        ],
+        "for": [
+          61,
+          64,
+          87,
+          116
+        ],
+        "teaching": [
+          62
+        ],
+        "contexts": [
+          63
+        ],
+        "processes,": [
+          66
+        ],
+        "given": [
+          67
+        ],
+        "provision": [
+          69
+        ],
+        "of": [
+          70,
+          83
+        ],
+        "companion": [
+          72
+        ],
+        "website": [
+          73
+        ],
+        "student": [
+          75
+        ],
+        "exercises": [
+          76
+        ],
+        "digital": [
+          78
+        ],
+        "content.": [
+          79
+        ],
+        "includes": [
+          81
+        ],
+        "screenshots": [
+          82
+        ],
+        "relevant": [
+          84
+        ],
+        "academic": [
+          85
+        ],
+        "software": [
+          86
+        ],
+        "analyzing": [
+          88
+        ],
+        "material": [
+          90
+        ],
+        "thematic": [
+          93
+        ],
+        "mapping": [
+          94
+        ],
+        "diagrams.": [
+          95
+        ],
+        "Furthermore,": [
+          96
+        ],
+        "this": [
+          97
+        ],
+        "book": [
+          98
+        ],
+        "can": [
+          99
+        ],
+        "assist": [
+          100
+        ],
+        "novice": [
+          101
+        ],
+        "researchers": [
+          102
+        ],
+        "determining": [
+          104
+        ],
+        "appropriate": [
+          106
+        ],
+        "approaches": [
+          107
+        ],
+        "reinforce": [
+          109
+        ],
+        "their": [
+          110
+        ],
+        "perspectives": [
+          111
+        ],
+        "provide": [
+          113
+        ],
+        "incremental": [
+          114
+        ],
+        "processes": [
+          115
+        ],
+        "qualitative": [
+          117
+        ],
+        "data.": [
+          119
+        ]
+      },
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 7
+        },
+        {
+          "year": 2025,
+          "cited_by_count": 1360
+        },
+        {
+          "year": 2024,
+          "cited_by_count": 1784
+        },
+        {
+          "year": 2023,
+          "cited_by_count": 1716
+        },
+        {
+          "year": 2022,
+          "cited_by_count": 1325
+        },
+        {
+          "year": 2021,
+          "cited_by_count": 1016
+        },
+        {
+          "year": 2020,
+          "cited_by_count": 764
+        },
+        {
+          "year": 2019,
+          "cited_by_count": 753
+        },
+        {
+          "year": 2018,
+          "cited_by_count": 568
+        },
+        {
+          "year": 2017,
+          "cited_by_count": 561
+        },
+        {
+          "year": 2016,
+          "cited_by_count": 509
+        },
+        {
+          "year": 2015,
+          "cited_by_count": 312
+        },
+        {
+          "year": 2014,
+          "cited_by_count": 163
+        },
+        {
+          "year": 2013,
+          "cited_by_count": 50
+        },
+        {
+          "year": 2012,
+          "cited_by_count": 5
+        }
+      ],
+      "updated_date": "2026-03-06T13:50:29.536080",
+      "created_date": "2025-10-10T00:00:00"
+    },
+    {
+      "id": "https://openalex.org/W2944434778",
+      "doi": "https://doi.org/10.1016/j.jbi.2019.103208",
+      "title": "The REDCap consortium: Building an international community of software platform partners",
+      "display_name": "The REDCap consortium: Building an international community of software platform partners",
+      "relevance_score": 1531.402,
+      "publication_year": 2019,
+      "publication_date": "2019-05-09",
+      "ids": {
+        "openalex": "https://openalex.org/W2944434778",
+        "doi": "https://doi.org/10.1016/j.jbi.2019.103208",
+        "mag": "2944434778",
+        "pmid": "https://pubmed.ncbi.nlm.nih.gov/31078660"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "doi:10.1016/j.jbi.2019.103208",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1016/j.jbi.2019.103208",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S11622463",
+          "display_name": "Journal of Biomedical Informatics",
+          "issn_l": "1532-0464",
+          "issn": [
+            "1532-0464",
+            "1532-0480"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310320990",
+          "host_organization_name": "Elsevier BV",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320990"
+          ],
+          "host_organization_lineage_names": [
+            "Elsevier BV"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Journal of Biomedical Informatics",
+        "raw_type": "journal-article"
+      },
+      "type": "article",
+      "indexed_in": [
+        "crossref",
+        "pubmed"
+      ],
+      "open_access": {
+        "is_oa": true,
+        "oa_status": "green",
+        "oa_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/7254481",
+        "any_repository_has_fulltext": true
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5016939870",
+            "display_name": "Paul A. Harris",
+            "orcid": "https://orcid.org/0000-0002-1744-2011"
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I901861585",
+              "display_name": "Vanderbilt University Medical Center",
+              "ror": "https://ror.org/05dq2gs74",
+              "country_code": "US",
+              "type": "healthcare",
+              "lineage": [
+                "https://openalex.org/I4210162197",
+                "https://openalex.org/I901861585"
+              ]
+            }
+          ],
+          "countries": [
+            "US"
+          ],
+          "is_corresponding": true,
+          "raw_author_name": "Paul A. Harris",
+          "raw_affiliation_strings": [
+            "Department of Biomedical Informatics, Vanderbilt University Medical Center, Nashville, TN, USA; Department of Biomedical Engineering, Vanderbilt University, Nashville, TN, USA; Vanderbilt Institute for Clinical and Translational Research, Vanderbilt University Medical Center, Nashville, TN, USA. Electronic address: Paul.Harris@vanderbilt.edu"
+          ],
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Department of Biomedical Informatics, Vanderbilt University Medical Center, Nashville, TN, USA; Department of Biomedical Engineering, Vanderbilt University, Nashville, TN, USA; Vanderbilt Institute for Clinical and Translational Research, Vanderbilt University Medical Center, Nashville, TN, USA. Electronic address: Paul.Harris@vanderbilt.edu",
+              "institution_ids": [
+                "https://openalex.org/I901861585"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5091771382",
+            "display_name": "Robert J. Taylor",
+            "orcid": "https://orcid.org/0000-0002-6106-7722"
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I901861585",
+              "display_name": "Vanderbilt University Medical Center",
+              "ror": "https://ror.org/05dq2gs74",
+              "country_code": "US",
+              "type": "healthcare",
+              "lineage": [
+                "https://openalex.org/I4210162197",
+                "https://openalex.org/I901861585"
+              ]
+            }
+          ],
+          "countries": [
+            "US"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Robert Taylor",
+          "raw_affiliation_strings": [
+            "Vanderbilt Institute for Clinical and Translational Research, Vanderbilt University Medical Center, Nashville, TN, USA"
+          ],
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Vanderbilt Institute for Clinical and Translational Research, Vanderbilt University Medical Center, Nashville, TN, USA",
+              "institution_ids": [
+                "https://openalex.org/I901861585"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5088605588",
+            "display_name": "Brenda L. Minor",
+            "orcid": "https://orcid.org/0000-0003-4425-2317"
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I901861585",
+              "display_name": "Vanderbilt University Medical Center",
+              "ror": "https://ror.org/05dq2gs74",
+              "country_code": "US",
+              "type": "healthcare",
+              "lineage": [
+                "https://openalex.org/I4210162197",
+                "https://openalex.org/I901861585"
+              ]
+            }
+          ],
+          "countries": [
+            "US"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Brenda L. Minor",
+          "raw_affiliation_strings": [
+            "Vanderbilt Institute for Clinical and Translational Research, Vanderbilt University Medical Center, Nashville, TN, USA"
+          ],
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Vanderbilt Institute for Clinical and Translational Research, Vanderbilt University Medical Center, Nashville, TN, USA",
+              "institution_ids": [
+                "https://openalex.org/I901861585"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5019832012",
+            "display_name": "Veida Elliott",
+            "orcid": null
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I901861585",
+              "display_name": "Vanderbilt University Medical Center",
+              "ror": "https://ror.org/05dq2gs74",
+              "country_code": "US",
+              "type": "healthcare",
+              "lineage": [
+                "https://openalex.org/I4210162197",
+                "https://openalex.org/I901861585"
+              ]
+            }
+          ],
+          "countries": [
+            "US"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Veida Elliott",
+          "raw_affiliation_strings": [
+            "Vanderbilt Institute for Clinical and Translational Research, Vanderbilt University Medical Center, Nashville, TN, USA"
+          ],
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Vanderbilt Institute for Clinical and Translational Research, Vanderbilt University Medical Center, Nashville, TN, USA",
+              "institution_ids": [
+                "https://openalex.org/I901861585"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5086831577",
+            "display_name": "Michelle Fernández",
+            "orcid": "https://orcid.org/0000-0003-0224-0991"
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I901861585",
+              "display_name": "Vanderbilt University Medical Center",
+              "ror": "https://ror.org/05dq2gs74",
+              "country_code": "US",
+              "type": "healthcare",
+              "lineage": [
+                "https://openalex.org/I4210162197",
+                "https://openalex.org/I901861585"
+              ]
+            }
+          ],
+          "countries": [
+            "US"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Michelle Fernandez",
+          "raw_affiliation_strings": [
+            "Vanderbilt Institute for Clinical and Translational Research, Vanderbilt University Medical Center, Nashville, TN, USA"
+          ],
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Vanderbilt Institute for Clinical and Translational Research, Vanderbilt University Medical Center, Nashville, TN, USA",
+              "institution_ids": [
+                "https://openalex.org/I901861585"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5058823353",
+            "display_name": "Lindsay O’Neal",
+            "orcid": null
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I901861585",
+              "display_name": "Vanderbilt University Medical Center",
+              "ror": "https://ror.org/05dq2gs74",
+              "country_code": "US",
+              "type": "healthcare",
+              "lineage": [
+                "https://openalex.org/I4210162197",
+                "https://openalex.org/I901861585"
+              ]
+            }
+          ],
+          "countries": [
+            "US"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Lindsay O'Neal",
+          "raw_affiliation_strings": [
+            "Vanderbilt Institute for Clinical and Translational Research, Vanderbilt University Medical Center, Nashville, TN, USA"
+          ],
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Vanderbilt Institute for Clinical and Translational Research, Vanderbilt University Medical Center, Nashville, TN, USA",
+              "institution_ids": [
+                "https://openalex.org/I901861585"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5088803813",
+            "display_name": "Laura McLeod",
+            "orcid": "https://orcid.org/0000-0001-7424-9106"
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I901861585",
+              "display_name": "Vanderbilt University Medical Center",
+              "ror": "https://ror.org/05dq2gs74",
+              "country_code": "US",
+              "type": "healthcare",
+              "lineage": [
+                "https://openalex.org/I4210162197",
+                "https://openalex.org/I901861585"
+              ]
+            }
+          ],
+          "countries": [
+            "US"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Laura McLeod",
+          "raw_affiliation_strings": [
+            "Vanderbilt Institute for Clinical and Translational Research, Vanderbilt University Medical Center, Nashville, TN, USA"
+          ],
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Vanderbilt Institute for Clinical and Translational Research, Vanderbilt University Medical Center, Nashville, TN, USA",
+              "institution_ids": [
+                "https://openalex.org/I901861585"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5014398074",
+            "display_name": "Giovanni Delacqua",
+            "orcid": null
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I901861585",
+              "display_name": "Vanderbilt University Medical Center",
+              "ror": "https://ror.org/05dq2gs74",
+              "country_code": "US",
+              "type": "healthcare",
+              "lineage": [
+                "https://openalex.org/I4210162197",
+                "https://openalex.org/I901861585"
+              ]
+            }
+          ],
+          "countries": [
+            "US"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Giovanni Delacqua",
+          "raw_affiliation_strings": [
+            "Vanderbilt Institute for Clinical and Translational Research, Vanderbilt University Medical Center, Nashville, TN, USA"
+          ],
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Vanderbilt Institute for Clinical and Translational Research, Vanderbilt University Medical Center, Nashville, TN, USA",
+              "institution_ids": [
+                "https://openalex.org/I901861585"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5023489769",
+            "display_name": "Francesco Delacqua",
+            "orcid": null
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I901861585",
+              "display_name": "Vanderbilt University Medical Center",
+              "ror": "https://ror.org/05dq2gs74",
+              "country_code": "US",
+              "type": "healthcare",
+              "lineage": [
+                "https://openalex.org/I4210162197",
+                "https://openalex.org/I901861585"
+              ]
+            }
+          ],
+          "countries": [
+            "US"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Francesco Delacqua",
+          "raw_affiliation_strings": [
+            "Vanderbilt Institute for Clinical and Translational Research, Vanderbilt University Medical Center, Nashville, TN, USA"
+          ],
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Vanderbilt Institute for Clinical and Translational Research, Vanderbilt University Medical Center, Nashville, TN, USA",
+              "institution_ids": [
+                "https://openalex.org/I901861585"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5086205928",
+            "display_name": "Jacqueline Kirby",
+            "orcid": null
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I901861585",
+              "display_name": "Vanderbilt University Medical Center",
+              "ror": "https://ror.org/05dq2gs74",
+              "country_code": "US",
+              "type": "healthcare",
+              "lineage": [
+                "https://openalex.org/I4210162197",
+                "https://openalex.org/I901861585"
+              ]
+            }
+          ],
+          "countries": [
+            "US"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Jacqueline Kirby",
+          "raw_affiliation_strings": [
+            "Vanderbilt Institute for Clinical and Translational Research, Vanderbilt University Medical Center, Nashville, TN, USA"
+          ],
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Vanderbilt Institute for Clinical and Translational Research, Vanderbilt University Medical Center, Nashville, TN, USA",
+              "institution_ids": [
+                "https://openalex.org/I901861585"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "last",
+          "author": {
+            "id": "https://openalex.org/A5088872453",
+            "display_name": "Stephany N. Duda",
+            "orcid": "https://orcid.org/0000-0001-6247-9350"
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I901861585",
+              "display_name": "Vanderbilt University Medical Center",
+              "ror": "https://ror.org/05dq2gs74",
+              "country_code": "US",
+              "type": "healthcare",
+              "lineage": [
+                "https://openalex.org/I4210162197",
+                "https://openalex.org/I901861585"
+              ]
+            }
+          ],
+          "countries": [
+            "US"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Stephany N. Duda",
+          "raw_affiliation_strings": [
+            "Department of Biomedical Informatics, Vanderbilt University Medical Center, Nashville, TN, USA; Vanderbilt Institute for Clinical and Translational Research, Vanderbilt University Medical Center, Nashville, TN, USA"
+          ],
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Department of Biomedical Informatics, Vanderbilt University Medical Center, Nashville, TN, USA; Vanderbilt Institute for Clinical and Translational Research, Vanderbilt University Medical Center, Nashville, TN, USA",
+              "institution_ids": [
+                "https://openalex.org/I901861585"
+              ]
+            }
+          ]
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 1,
+      "institutions_distinct_count": 11,
+      "corresponding_author_ids": [
+        "https://openalex.org/A5016939870"
+      ],
+      "corresponding_institution_ids": [
+        "https://openalex.org/I901861585"
+      ],
+      "apc_list": {
+        "value": 2980,
+        "currency": "USD",
+        "value_usd": 2980
+      },
+      "apc_paid": null,
+      "fwci": 3353.8696,
+      "has_fulltext": false,
+      "cited_by_count": 22692,
+      "citation_normalized_percentile": {
+        "value": 1.0,
+        "is_in_top_1_percent": true,
+        "is_in_top_10_percent": true
+      },
+      "cited_by_percentile_year": {
+        "min": 89,
+        "max": 100
+      },
+      "biblio": {
+        "volume": "95",
+        "issue": null,
+        "first_page": "103208",
+        "last_page": "103208"
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T11986",
+        "display_name": "Scientific Computing and Data Management",
+        "score": 0.9991000294685364,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1802",
+          "display_name": "Information Systems and Management"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/18",
+          "display_name": "Decision Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T11986",
+          "display_name": "Scientific Computing and Data Management",
+          "score": 0.9991000294685364,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1802",
+            "display_name": "Information Systems and Management"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/18",
+            "display_name": "Decision Sciences"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/2",
+            "display_name": "Social Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T11937",
+          "display_name": "Research Data Management Practices",
+          "score": 0.9916999936103821,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1710",
+            "display_name": "Information Systems"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T11719",
+          "display_name": "Data Quality and Management",
+          "score": 0.9807999730110168,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1803",
+            "display_name": "Management Science and Operations Research"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/18",
+            "display_name": "Decision Sciences"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/2",
+            "display_name": "Social Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/dissemination",
+          "display_name": "Dissemination",
+          "score": 0.7506331205368042
+        },
+        {
+          "id": "https://openalex.org/keywords/software",
+          "display_name": "Software",
+          "score": 0.5764188170433044
+        },
+        {
+          "id": "https://openalex.org/keywords/computer-science",
+          "display_name": "Computer science",
+          "score": 0.5223939418792725
+        },
+        {
+          "id": "https://openalex.org/keywords/data-sharing",
+          "display_name": "Data sharing",
+          "score": 0.49718692898750305
+        },
+        {
+          "id": "https://openalex.org/keywords/government",
+          "display_name": "Government (linguistics)",
+          "score": 0.461961954832077
+        },
+        {
+          "id": "https://openalex.org/keywords/knowledge-management",
+          "display_name": "Knowledge management",
+          "score": 0.41201138496398926
+        },
+        {
+          "id": "https://openalex.org/keywords/data-science",
+          "display_name": "Data science",
+          "score": 0.37284523248672485
+        },
+        {
+          "id": "https://openalex.org/keywords/engineering-management",
+          "display_name": "Engineering management",
+          "score": 0.36154282093048096
+        },
+        {
+          "id": "https://openalex.org/keywords/world-wide-web",
+          "display_name": "World Wide Web",
+          "score": 0.3416711091995239
+        },
+        {
+          "id": "https://openalex.org/keywords/engineering",
+          "display_name": "Engineering",
+          "score": 0.2685126066207886
+        },
+        {
+          "id": "https://openalex.org/keywords/telecommunications",
+          "display_name": "Telecommunications",
+          "score": 0.12765058875083923
+        },
+        {
+          "id": "https://openalex.org/keywords/medicine",
+          "display_name": "Medicine",
+          "score": 0.12295117974281311
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C101780184",
+          "wikidata": "https://www.wikidata.org/wiki/Q840576",
+          "display_name": "Dissemination",
+          "level": 2,
+          "score": 0.7506331205368042
+        },
+        {
+          "id": "https://openalex.org/C2777904410",
+          "wikidata": "https://www.wikidata.org/wiki/Q7397",
+          "display_name": "Software",
+          "level": 2,
+          "score": 0.5764188170433044
+        },
+        {
+          "id": "https://openalex.org/C41008148",
+          "wikidata": "https://www.wikidata.org/wiki/Q21198",
+          "display_name": "Computer science",
+          "level": 0,
+          "score": 0.5223939418792725
+        },
+        {
+          "id": "https://openalex.org/C2779965156",
+          "wikidata": "https://www.wikidata.org/wiki/Q5227350",
+          "display_name": "Data sharing",
+          "level": 3,
+          "score": 0.49718692898750305
+        },
+        {
+          "id": "https://openalex.org/C2778137410",
+          "wikidata": "https://www.wikidata.org/wiki/Q2732820",
+          "display_name": "Government (linguistics)",
+          "level": 2,
+          "score": 0.461961954832077
+        },
+        {
+          "id": "https://openalex.org/C56739046",
+          "wikidata": "https://www.wikidata.org/wiki/Q192060",
+          "display_name": "Knowledge management",
+          "level": 1,
+          "score": 0.41201138496398926
+        },
+        {
+          "id": "https://openalex.org/C2522767166",
+          "wikidata": "https://www.wikidata.org/wiki/Q2374463",
+          "display_name": "Data science",
+          "level": 1,
+          "score": 0.37284523248672485
+        },
+        {
+          "id": "https://openalex.org/C110354214",
+          "wikidata": "https://www.wikidata.org/wiki/Q6314146",
+          "display_name": "Engineering management",
+          "level": 1,
+          "score": 0.36154282093048096
+        },
+        {
+          "id": "https://openalex.org/C136764020",
+          "wikidata": "https://www.wikidata.org/wiki/Q466",
+          "display_name": "World Wide Web",
+          "level": 1,
+          "score": 0.3416711091995239
+        },
+        {
+          "id": "https://openalex.org/C127413603",
+          "wikidata": "https://www.wikidata.org/wiki/Q11023",
+          "display_name": "Engineering",
+          "level": 0,
+          "score": 0.2685126066207886
+        },
+        {
+          "id": "https://openalex.org/C76155785",
+          "wikidata": "https://www.wikidata.org/wiki/Q418",
+          "display_name": "Telecommunications",
+          "level": 1,
+          "score": 0.12765058875083923
+        },
+        {
+          "id": "https://openalex.org/C71924100",
+          "wikidata": "https://www.wikidata.org/wiki/Q11190",
+          "display_name": "Medicine",
+          "level": 0,
+          "score": 0.12295117974281311
+        },
+        {
+          "id": "https://openalex.org/C199360897",
+          "wikidata": "https://www.wikidata.org/wiki/Q9143",
+          "display_name": "Programming language",
+          "level": 1,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C138885662",
+          "wikidata": "https://www.wikidata.org/wiki/Q5891",
+          "display_name": "Philosophy",
+          "level": 0,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C204787440",
+          "wikidata": "https://www.wikidata.org/wiki/Q188504",
+          "display_name": "Alternative medicine",
+          "level": 2,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C41895202",
+          "wikidata": "https://www.wikidata.org/wiki/Q8162",
+          "display_name": "Linguistics",
+          "level": 1,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C142724271",
+          "wikidata": "https://www.wikidata.org/wiki/Q7208",
+          "display_name": "Pathology",
+          "level": 1,
+          "score": 0.0
+        }
+      ],
+      "mesh": [
+        {
+          "descriptor_ui": "D006801",
+          "descriptor_name": "Humans",
+          "qualifier_ui": null,
+          "qualifier_name": null,
+          "is_major_topic": false
+        },
+        {
+          "descriptor_ui": "D006801",
+          "descriptor_name": "Humans",
+          "qualifier_ui": null,
+          "qualifier_name": null,
+          "is_major_topic": false
+        },
+        {
+          "descriptor_ui": "D006801",
+          "descriptor_name": "Humans",
+          "qualifier_ui": null,
+          "qualifier_name": null,
+          "is_major_topic": false
+        },
+        {
+          "descriptor_ui": "D008490",
+          "descriptor_name": "Medical Informatics",
+          "qualifier_ui": "Q000458",
+          "qualifier_name": "organization & administration",
+          "is_major_topic": false
+        },
+        {
+          "descriptor_ui": "D008490",
+          "descriptor_name": "Medical Informatics",
+          "qualifier_ui": "Q000458",
+          "qualifier_name": "organization & administration",
+          "is_major_topic": false
+        },
+        {
+          "descriptor_ui": "D008490",
+          "descriptor_name": "Medical Informatics",
+          "qualifier_ui": "Q000458",
+          "qualifier_name": "organization & administration",
+          "is_major_topic": false
+        },
+        {
+          "descriptor_ui": "D012984",
+          "descriptor_name": "Software",
+          "qualifier_ui": null,
+          "qualifier_name": null,
+          "is_major_topic": true
+        },
+        {
+          "descriptor_ui": "D012984",
+          "descriptor_name": "Software",
+          "qualifier_ui": null,
+          "qualifier_name": null,
+          "is_major_topic": true
+        },
+        {
+          "descriptor_ui": "D012984",
+          "descriptor_name": "Software",
+          "qualifier_ui": null,
+          "qualifier_name": null,
+          "is_major_topic": true
+        },
+        {
+          "descriptor_ui": "D033181",
+          "descriptor_name": "Information Dissemination",
+          "qualifier_ui": null,
+          "qualifier_name": null,
+          "is_major_topic": false
+        },
+        {
+          "descriptor_ui": "D033181",
+          "descriptor_name": "Information Dissemination",
+          "qualifier_ui": null,
+          "qualifier_name": null,
+          "is_major_topic": false
+        },
+        {
+          "descriptor_ui": "D033181",
+          "descriptor_name": "Information Dissemination",
+          "qualifier_ui": null,
+          "qualifier_name": null,
+          "is_major_topic": false
+        },
+        {
+          "descriptor_ui": "D035843",
+          "descriptor_name": "Biomedical Research",
+          "qualifier_ui": "Q000458",
+          "qualifier_name": "organization & administration",
+          "is_major_topic": false
+        },
+        {
+          "descriptor_ui": "D035843",
+          "descriptor_name": "Biomedical Research",
+          "qualifier_ui": "Q000458",
+          "qualifier_name": "organization & administration",
+          "is_major_topic": false
+        },
+        {
+          "descriptor_ui": "D035843",
+          "descriptor_name": "Biomedical Research",
+          "qualifier_ui": "Q000458",
+          "qualifier_name": "organization & administration",
+          "is_major_topic": false
+        },
+        {
+          "descriptor_ui": "D038622",
+          "descriptor_name": "Internationality",
+          "qualifier_ui": null,
+          "qualifier_name": null,
+          "is_major_topic": false
+        },
+        {
+          "descriptor_ui": "D038622",
+          "descriptor_name": "Internationality",
+          "qualifier_ui": null,
+          "qualifier_name": null,
+          "is_major_topic": false
+        },
+        {
+          "descriptor_ui": "D038622",
+          "descriptor_name": "Internationality",
+          "qualifier_ui": null,
+          "qualifier_name": null,
+          "is_major_topic": false
+        }
+      ],
+      "locations_count": 3,
+      "locations": [
+        {
+          "id": "doi:10.1016/j.jbi.2019.103208",
+          "is_oa": false,
+          "landing_page_url": "https://doi.org/10.1016/j.jbi.2019.103208",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S11622463",
+            "display_name": "Journal of Biomedical Informatics",
+            "issn_l": "1532-0464",
+            "issn": [
+              "1532-0464",
+              "1532-0480"
+            ],
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": true,
+            "host_organization": "https://openalex.org/P4310320990",
+            "host_organization_name": "Elsevier BV",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310320990"
+            ],
+            "host_organization_lineage_names": [
+              "Elsevier BV"
+            ],
+            "type": "journal"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "Journal of Biomedical Informatics",
+          "raw_type": "journal-article"
+        },
+        {
+          "id": "pmid:31078660",
+          "is_oa": false,
+          "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/31078660",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4306525036",
+            "display_name": "PubMed",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "host_organization": "https://openalex.org/I1299303238",
+            "host_organization_name": "National Institutes of Health",
+            "host_organization_lineage": [
+              "https://openalex.org/I1299303238"
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "Journal of biomedical informatics",
+          "raw_type": null
+        },
+        {
+          "id": "pmh:oai:pubmedcentral.nih.gov:7254481",
+          "is_oa": true,
+          "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/7254481",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S2764455111",
+            "display_name": "PubMed Central",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "host_organization": "https://openalex.org/I1299303238",
+            "host_organization_name": "National Institutes of Health",
+            "host_organization_lineage": [
+              "https://openalex.org/I1299303238"
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "submittedVersion",
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": "J Biomed Inform",
+          "raw_type": "Text"
+        }
+      ],
+      "best_oa_location": {
+        "id": "pmh:oai:pubmedcentral.nih.gov:7254481",
+        "is_oa": true,
+        "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/7254481",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S2764455111",
+          "display_name": "PubMed Central",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I1299303238",
+          "host_organization_name": "National Institutes of Health",
+          "host_organization_lineage": [
+            "https://openalex.org/I1299303238"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "J Biomed Inform",
+        "raw_type": "Text"
+      },
+      "sustainable_development_goals": [
+        {
+          "score": 0.41999998688697815,
+          "id": "https://metadata.un.org/sdg/9",
+          "display_name": "Industry, innovation and infrastructure"
+        },
+        {
+          "score": 0.4099999964237213,
+          "id": "https://metadata.un.org/sdg/17",
+          "display_name": "Partnerships for the goals"
+        }
+      ],
+      "awards": [],
+      "funders": [
+        {
+          "id": "https://openalex.org/F4320309151",
+          "display_name": "Vanderbilt University",
+          "ror": "https://ror.org/02vm5rt34"
+        },
+        {
+          "id": "https://openalex.org/F4320337376",
+          "display_name": "NIH Clinical Center",
+          "ror": "https://ror.org/04vfsmv21"
+        }
+      ],
+      "has_content": {
+        "grobid_xml": false,
+        "pdf": false
+      },
+      "content_urls": null,
+      "referenced_works_count": 63,
+      "referenced_works": [
+        "https://openalex.org/W1508644103",
+        "https://openalex.org/W1517472723",
+        "https://openalex.org/W1526182200",
+        "https://openalex.org/W1553628562",
+        "https://openalex.org/W1570389551",
+        "https://openalex.org/W1573344485",
+        "https://openalex.org/W1575328666",
+        "https://openalex.org/W1579673523",
+        "https://openalex.org/W1579689386",
+        "https://openalex.org/W1639164366",
+        "https://openalex.org/W1811656171",
+        "https://openalex.org/W1833822692",
+        "https://openalex.org/W1835259194",
+        "https://openalex.org/W1885178597",
+        "https://openalex.org/W1964487839",
+        "https://openalex.org/W1981090471",
+        "https://openalex.org/W1989750541",
+        "https://openalex.org/W1995298382",
+        "https://openalex.org/W2008244476",
+        "https://openalex.org/W2016017240",
+        "https://openalex.org/W2019193813",
+        "https://openalex.org/W2024585719",
+        "https://openalex.org/W2029784122",
+        "https://openalex.org/W2037272442",
+        "https://openalex.org/W2040151576",
+        "https://openalex.org/W2043160805",
+        "https://openalex.org/W2048136803",
+        "https://openalex.org/W2056633185",
+        "https://openalex.org/W2078792829",
+        "https://openalex.org/W2084776487",
+        "https://openalex.org/W2093274439",
+        "https://openalex.org/W2114897044",
+        "https://openalex.org/W2123152121",
+        "https://openalex.org/W2128681611",
+        "https://openalex.org/W2129880493",
+        "https://openalex.org/W2138278593",
+        "https://openalex.org/W2146490267",
+        "https://openalex.org/W2151868700",
+        "https://openalex.org/W2159739284",
+        "https://openalex.org/W2162935122",
+        "https://openalex.org/W2166831763",
+        "https://openalex.org/W2169416010",
+        "https://openalex.org/W2171350235",
+        "https://openalex.org/W2172119044",
+        "https://openalex.org/W2209139941",
+        "https://openalex.org/W2277376353",
+        "https://openalex.org/W2340727448",
+        "https://openalex.org/W2399492262",
+        "https://openalex.org/W2410556404",
+        "https://openalex.org/W2416583220",
+        "https://openalex.org/W2419333550",
+        "https://openalex.org/W4236442784",
+        "https://openalex.org/W4292447049",
+        "https://openalex.org/W6634094581",
+        "https://openalex.org/W6634720743",
+        "https://openalex.org/W6636778419",
+        "https://openalex.org/W6639402291",
+        "https://openalex.org/W6654456951",
+        "https://openalex.org/W6655455045",
+        "https://openalex.org/W6688532467",
+        "https://openalex.org/W6704096860",
+        "https://openalex.org/W6712548044",
+        "https://openalex.org/W6714958384"
+      ],
+      "related_works": [
+        "https://openalex.org/W2748952813",
+        "https://openalex.org/W2374084962",
+        "https://openalex.org/W2978405156",
+        "https://openalex.org/W1976738710",
+        "https://openalex.org/W4248517311",
+        "https://openalex.org/W2131881665",
+        "https://openalex.org/W2314287148",
+        "https://openalex.org/W2975929853",
+        "https://openalex.org/W2249285054",
+        "https://openalex.org/W2377612877"
+      ],
+      "abstract_inverted_index": null,
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 819
+        },
+        {
+          "year": 2025,
+          "cited_by_count": 4871
+        },
+        {
+          "year": 2024,
+          "cited_by_count": 5254
+        },
+        {
+          "year": 2023,
+          "cited_by_count": 4094
+        },
+        {
+          "year": 2022,
+          "cited_by_count": 3412
+        },
+        {
+          "year": 2021,
+          "cited_by_count": 2803
+        },
+        {
+          "year": 2020,
+          "cited_by_count": 1308
+        },
+        {
+          "year": 2019,
+          "cited_by_count": 90
+        },
+        {
+          "year": 2018,
+          "cited_by_count": 1
+        },
+        {
+          "year": 2016,
+          "cited_by_count": 1
+        },
+        {
+          "year": 2014,
+          "cited_by_count": 1
+        },
+        {
+          "year": 2013,
+          "cited_by_count": 1
+        },
+        {
+          "year": 2012,
+          "cited_by_count": 3
+        }
+      ],
+      "updated_date": "2026-03-14T08:43:22.919905",
+      "created_date": "2025-10-10T00:00:00"
+    },
+    {
+      "id": "https://openalex.org/W4385245566",
+      "doi": "https://doi.org/10.4230/lipics.itp.2023.19",
+      "title": "MizAR 60 for Mizar 50",
+      "display_name": "MizAR 60 for Mizar 50",
+      "relevance_score": 930.94525,
+      "publication_year": 2023,
+      "publication_date": "2023-01-01",
+      "ids": {
+        "openalex": "https://openalex.org/W4385245566",
+        "doi": "https://doi.org/10.4230/lipics.itp.2023.19"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "pmh:oai:drops-oai.dagstuhl.de:18394",
+        "is_oa": true,
+        "landing_page_url": "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.ITP.2023.19",
+        "pdf_url": "https://drops.dagstuhl.de/storage/00lipics/lipics-vol268-itp2023/LIPIcs.ITP.2023.19/LIPIcs.ITP.2023.19.pdf",
+        "source": {
+          "id": "https://openalex.org/S4377196569",
+          "display_name": "DROPS (Schloss Dagstuhl – Leibniz Center for Informatics)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I2799853480",
+          "host_organization_name": "Schloss Dagstuhl – Leibniz Center for Informatics",
+          "host_organization_lineage": [
+            "https://openalex.org/I2799853480"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "",
+        "raw_type": "InProceedings"
+      },
+      "type": "preprint",
+      "indexed_in": [
+        "datacite"
+      ],
+      "open_access": {
+        "is_oa": true,
+        "oa_status": "green",
+        "oa_url": "https://drops.dagstuhl.de/storage/00lipics/lipics-vol268-itp2023/LIPIcs.ITP.2023.19/LIPIcs.ITP.2023.19.pdf",
+        "any_repository_has_fulltext": true
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5103024730",
+            "display_name": "Ashish Vaswani",
+            "orcid": "https://orcid.org/0000-0002-7794-2085"
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I44504214",
+              "display_name": "Czech Technical University in Prague",
+              "ror": "https://ror.org/03kqpb082",
+              "country_code": "CZ",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I44504214"
+              ]
+            }
+          ],
+          "countries": [
+            "CZ"
+          ],
+          "is_corresponding": true,
+          "raw_author_name": "Jakubův, Jan",
+          "raw_affiliation_strings": [
+            "Czech Technical University in Prague, Czech Republic"
+          ],
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Czech Technical University in Prague, Czech Republic",
+              "institution_ids": [
+                "https://openalex.org/I44504214"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5021878400",
+            "display_name": "Noam Shazeer",
+            "orcid": null
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I44504214",
+              "display_name": "Czech Technical University in Prague",
+              "ror": "https://ror.org/03kqpb082",
+              "country_code": "CZ",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I44504214"
+              ]
+            }
+          ],
+          "countries": [
+            "CZ"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Chvalovský, Karel",
+          "raw_affiliation_strings": [
+            "Czech Technical University in Prague, Czech Republic"
+          ],
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Czech Technical University in Prague, Czech Republic",
+              "institution_ids": [
+                "https://openalex.org/I44504214"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5005777963",
+            "display_name": "Niki Parmar",
+            "orcid": null
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I44504214",
+              "display_name": "Czech Technical University in Prague",
+              "ror": "https://ror.org/03kqpb082",
+              "country_code": "CZ",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I44504214"
+              ]
+            }
+          ],
+          "countries": [
+            "CZ"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Goertzel, Zarathustra",
+          "raw_affiliation_strings": [
+            "Czech Technical University in Prague, Czech Republic"
+          ],
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Czech Technical University in Prague, Czech Republic",
+              "institution_ids": [
+                "https://openalex.org/I44504214"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5022416424",
+            "display_name": "Jakob Uszkoreit",
+            "orcid": "https://orcid.org/0000-0001-5066-7530"
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I4210119939",
+              "display_name": "Food Research Institute Prague",
+              "ror": "https://ror.org/02jdepa55",
+              "country_code": "CZ",
+              "type": "facility",
+              "lineage": [
+                "https://openalex.org/I4210119939"
+              ]
+            },
+            {
+              "id": "https://openalex.org/I190249584",
+              "display_name": "Universität Innsbruck",
+              "ror": "https://ror.org/054pv6659",
+              "country_code": "AT",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I190249584"
+              ]
+            }
+          ],
+          "countries": [
+            "AT",
+            "CZ"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Kaliszyk, Cezary",
+          "raw_affiliation_strings": [
+            "Universität Innsbruck, Austria",
+            "INDRC, Prague, Czech Republic"
+          ],
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Universität Innsbruck, Austria",
+              "institution_ids": [
+                "https://openalex.org/I190249584"
+              ]
+            },
+            {
+              "raw_affiliation_string": "INDRC, Prague, Czech Republic",
+              "institution_ids": [
+                "https://openalex.org/I4210119939"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5023448834",
+            "display_name": "Llion Jones",
+            "orcid": null
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I84909340",
+              "display_name": "Institut des Hautes Études Scientifiques",
+              "ror": "https://ror.org/05d5m2r55",
+              "country_code": "FR",
+              "type": "facility",
+              "lineage": [
+                "https://openalex.org/I84909340"
+              ]
+            }
+          ],
+          "countries": [
+            "FR"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Olšák, Mirek",
+          "raw_affiliation_strings": [
+            "Institut des Hautes Études Scientifiques, Paris, France"
+          ],
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Institut des Hautes Études Scientifiques, Paris, France",
+              "institution_ids": [
+                "https://openalex.org/I84909340"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5079288315",
+            "display_name": "Aidan N. Gomez",
+            "orcid": "https://orcid.org/0000-0001-5601-5437"
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I44504214",
+              "display_name": "Czech Technical University in Prague",
+              "ror": "https://ror.org/03kqpb082",
+              "country_code": "CZ",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I44504214"
+              ]
+            }
+          ],
+          "countries": [
+            "CZ"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Piotrowski, Bartosz",
+          "raw_affiliation_strings": [
+            "Czech Technical University in Prague, Czech Republic"
+          ],
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Czech Technical University in Prague, Czech Republic",
+              "institution_ids": [
+                "https://openalex.org/I44504214"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5031789995",
+            "display_name": "Łukasz Kaiser",
+            "orcid": "https://orcid.org/0000-0003-1092-6010"
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I108806672",
+              "display_name": "Baden-Wuerttemberg Cooperative State University",
+              "ror": "https://ror.org/02xdzy536",
+              "country_code": "DE",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I108806672"
+              ]
+            }
+          ],
+          "countries": [
+            "DE"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Schulz, Stephan",
+          "raw_affiliation_strings": [
+            "DHBW Stuttgart, Germany"
+          ],
+          "affiliations": [
+            {
+              "raw_affiliation_string": "DHBW Stuttgart, Germany",
+              "institution_ids": [
+                "https://openalex.org/I108806672"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5045719436",
+            "display_name": "Illia Polosukhin",
+            "orcid": null
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I44504214",
+              "display_name": "Czech Technical University in Prague",
+              "ror": "https://ror.org/03kqpb082",
+              "country_code": "CZ",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I44504214"
+              ]
+            }
+          ],
+          "countries": [
+            "CZ"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Suda, Martin",
+          "raw_affiliation_strings": [
+            "Czech Technical University in Prague, Czech Republic"
+          ],
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Czech Technical University in Prague, Czech Republic",
+              "institution_ids": [
+                "https://openalex.org/I44504214"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "last",
+          "author": {
+            "id": null,
+            "display_name": "Urban, Josef",
+            "orcid": "https://orcid.org/0000-0002-1384-1613"
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I44504214",
+              "display_name": "Czech Technical University in Prague",
+              "ror": "https://ror.org/03kqpb082",
+              "country_code": "CZ",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I44504214"
+              ]
+            }
+          ],
+          "countries": [
+            "CZ"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Urban, Josef",
+          "raw_affiliation_strings": [
+            "Czech Technical University in Prague, Czech Republic"
+          ],
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Czech Technical University in Prague, Czech Republic",
+              "institution_ids": [
+                "https://openalex.org/I44504214"
+              ]
+            }
+          ]
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 4,
+      "institutions_distinct_count": 9,
+      "corresponding_author_ids": [
+        "https://openalex.org/A5103024730"
+      ],
+      "corresponding_institution_ids": [
+        "https://openalex.org/I44504214"
+      ],
+      "apc_list": null,
+      "apc_paid": null,
+      "fwci": 9305.0882,
+      "has_fulltext": true,
+      "cited_by_count": 74119,
+      "citation_normalized_percentile": {
+        "value": 1.0,
+        "is_in_top_1_percent": true,
+        "is_in_top_10_percent": true
+      },
+      "cited_by_percentile_year": {
+        "min": 89,
+        "max": 100
+      },
+      "biblio": {
+        "volume": null,
+        "issue": null,
+        "first_page": null,
+        "last_page": null
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T10181",
+        "display_name": "Natural Language Processing Techniques",
+        "score": 0.9998000264167786,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1702",
+          "display_name": "Artificial Intelligence"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T10181",
+          "display_name": "Natural Language Processing Techniques",
+          "score": 0.9998000264167786,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1702",
+            "display_name": "Artificial Intelligence"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T10028",
+          "display_name": "Topic Modeling",
+          "score": 0.9962000250816345,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1702",
+            "display_name": "Artificial Intelligence"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T11714",
+          "display_name": "Multimodal Machine Learning Applications",
+          "score": 0.991599977016449,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1707",
+            "display_name": "Computer Vision and Pattern Recognition"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/computer-science",
+          "display_name": "Computer science",
+          "score": 0.8551121950149536
+        },
+        {
+          "id": "https://openalex.org/keywords/machine-translation",
+          "display_name": "Machine translation",
+          "score": 0.8304240703582764
+        },
+        {
+          "id": "https://openalex.org/keywords/transformer",
+          "display_name": "Transformer",
+          "score": 0.7824931144714355
+        },
+        {
+          "id": "https://openalex.org/keywords/bleu",
+          "display_name": "BLEU",
+          "score": 0.6924161911010742
+        },
+        {
+          "id": "https://openalex.org/keywords/encoder",
+          "display_name": "Encoder",
+          "score": 0.6585307121276855
+        },
+        {
+          "id": "https://openalex.org/keywords/artificial-intelligence",
+          "display_name": "Artificial intelligence",
+          "score": 0.6133711338043213
+        },
+        {
+          "id": "https://openalex.org/keywords/parallelizable-manifold",
+          "display_name": "Parallelizable manifold",
+          "score": 0.5542272925376892
+        },
+        {
+          "id": "https://openalex.org/keywords/parsing",
+          "display_name": "Parsing",
+          "score": 0.521559476852417
+        },
+        {
+          "id": "https://openalex.org/keywords/natural-language-processing",
+          "display_name": "Natural language processing",
+          "score": 0.5018882751464844
+        },
+        {
+          "id": "https://openalex.org/keywords/decoding-methods",
+          "display_name": "Decoding methods",
+          "score": 0.49938035011291504
+        },
+        {
+          "id": "https://openalex.org/keywords/language-model",
+          "display_name": "Language model",
+          "score": 0.49533000588417053
+        },
+        {
+          "id": "https://openalex.org/keywords/task",
+          "display_name": "Task (project management)",
+          "score": 0.48461946845054626
+        },
+        {
+          "id": "https://openalex.org/keywords/convolutional-neural-network",
+          "display_name": "Convolutional neural network",
+          "score": 0.42193466424942017
+        },
+        {
+          "id": "https://openalex.org/keywords/speech-recognition",
+          "display_name": "Speech recognition",
+          "score": 0.38881179690361023
+        },
+        {
+          "id": "https://openalex.org/keywords/machine-learning",
+          "display_name": "Machine learning",
+          "score": 0.3401392102241516
+        },
+        {
+          "id": "https://openalex.org/keywords/algorithm",
+          "display_name": "Algorithm",
+          "score": 0.14997288584709167
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C41008148",
+          "wikidata": "https://www.wikidata.org/wiki/Q21198",
+          "display_name": "Computer science",
+          "level": 0,
+          "score": 0.8551121950149536
+        },
+        {
+          "id": "https://openalex.org/C203005215",
+          "wikidata": "https://www.wikidata.org/wiki/Q79798",
+          "display_name": "Machine translation",
+          "level": 2,
+          "score": 0.8304240703582764
+        },
+        {
+          "id": "https://openalex.org/C66322947",
+          "wikidata": "https://www.wikidata.org/wiki/Q11658",
+          "display_name": "Transformer",
+          "level": 3,
+          "score": 0.7824931144714355
+        },
+        {
+          "id": "https://openalex.org/C622187",
+          "wikidata": "https://www.wikidata.org/wiki/Q3500773",
+          "display_name": "BLEU",
+          "level": 3,
+          "score": 0.6924161911010742
+        },
+        {
+          "id": "https://openalex.org/C118505674",
+          "wikidata": "https://www.wikidata.org/wiki/Q42586063",
+          "display_name": "Encoder",
+          "level": 2,
+          "score": 0.6585307121276855
+        },
+        {
+          "id": "https://openalex.org/C154945302",
+          "wikidata": "https://www.wikidata.org/wiki/Q11660",
+          "display_name": "Artificial intelligence",
+          "level": 1,
+          "score": 0.6133711338043213
+        },
+        {
+          "id": "https://openalex.org/C148047603",
+          "wikidata": "https://www.wikidata.org/wiki/Q1014612",
+          "display_name": "Parallelizable manifold",
+          "level": 2,
+          "score": 0.5542272925376892
+        },
+        {
+          "id": "https://openalex.org/C186644900",
+          "wikidata": "https://www.wikidata.org/wiki/Q194152",
+          "display_name": "Parsing",
+          "level": 2,
+          "score": 0.521559476852417
+        },
+        {
+          "id": "https://openalex.org/C204321447",
+          "wikidata": "https://www.wikidata.org/wiki/Q30642",
+          "display_name": "Natural language processing",
+          "level": 1,
+          "score": 0.5018882751464844
+        },
+        {
+          "id": "https://openalex.org/C57273362",
+          "wikidata": "https://www.wikidata.org/wiki/Q576722",
+          "display_name": "Decoding methods",
+          "level": 2,
+          "score": 0.49938035011291504
+        },
+        {
+          "id": "https://openalex.org/C137293760",
+          "wikidata": "https://www.wikidata.org/wiki/Q3621696",
+          "display_name": "Language model",
+          "level": 2,
+          "score": 0.49533000588417053
+        },
+        {
+          "id": "https://openalex.org/C2780451532",
+          "wikidata": "https://www.wikidata.org/wiki/Q759676",
+          "display_name": "Task (project management)",
+          "level": 2,
+          "score": 0.48461946845054626
+        },
+        {
+          "id": "https://openalex.org/C81363708",
+          "wikidata": "https://www.wikidata.org/wiki/Q17084460",
+          "display_name": "Convolutional neural network",
+          "level": 2,
+          "score": 0.42193466424942017
+        },
+        {
+          "id": "https://openalex.org/C28490314",
+          "wikidata": "https://www.wikidata.org/wiki/Q189436",
+          "display_name": "Speech recognition",
+          "level": 1,
+          "score": 0.38881179690361023
+        },
+        {
+          "id": "https://openalex.org/C119857082",
+          "wikidata": "https://www.wikidata.org/wiki/Q2539",
+          "display_name": "Machine learning",
+          "level": 1,
+          "score": 0.3401392102241516
+        },
+        {
+          "id": "https://openalex.org/C11413529",
+          "wikidata": "https://www.wikidata.org/wiki/Q8366",
+          "display_name": "Algorithm",
+          "level": 1,
+          "score": 0.14997288584709167
+        },
+        {
+          "id": "https://openalex.org/C187736073",
+          "wikidata": "https://www.wikidata.org/wiki/Q2920921",
+          "display_name": "Management",
+          "level": 1,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C111919701",
+          "wikidata": "https://www.wikidata.org/wiki/Q9135",
+          "display_name": "Operating system",
+          "level": 1,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C165801399",
+          "wikidata": "https://www.wikidata.org/wiki/Q25428",
+          "display_name": "Voltage",
+          "level": 2,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C121332964",
+          "wikidata": "https://www.wikidata.org/wiki/Q413",
+          "display_name": "Physics",
+          "level": 0,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C62520636",
+          "wikidata": "https://www.wikidata.org/wiki/Q944",
+          "display_name": "Quantum mechanics",
+          "level": 1,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C162324750",
+          "wikidata": "https://www.wikidata.org/wiki/Q8134",
+          "display_name": "Economics",
+          "level": 0,
+          "score": 0.0
+        }
+      ],
+      "mesh": [],
+      "locations_count": 2,
+      "locations": [
+        {
+          "id": "pmh:oai:drops-oai.dagstuhl.de:18394",
+          "is_oa": true,
+          "landing_page_url": "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.ITP.2023.19",
+          "pdf_url": "https://drops.dagstuhl.de/storage/00lipics/lipics-vol268-itp2023/LIPIcs.ITP.2023.19/LIPIcs.ITP.2023.19.pdf",
+          "source": {
+            "id": "https://openalex.org/S4377196569",
+            "display_name": "DROPS (Schloss Dagstuhl – Leibniz Center for Informatics)",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "host_organization": "https://openalex.org/I2799853480",
+            "host_organization_name": "Schloss Dagstuhl – Leibniz Center for Informatics",
+            "host_organization_lineage": [
+              "https://openalex.org/I2799853480"
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": "cc-by",
+          "license_id": "https://openalex.org/licenses/cc-by",
+          "version": "submittedVersion",
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": "",
+          "raw_type": "InProceedings"
+        },
+        {
+          "id": "doi:10.4230/lipics.itp.2023.19",
+          "is_oa": true,
+          "landing_page_url": "https://doi.org/10.4230/lipics.itp.2023.19",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S7407052059",
+            "display_name": "Dagstuhl Research Online Publication Server",
+            "issn_l": null,
+            "issn": [],
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "host_organization": null,
+            "host_organization_name": null,
+            "host_organization_lineage": [],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": "cc-by",
+          "license_id": "https://openalex.org/licenses/cc-by",
+          "version": null,
+          "is_accepted": false,
+          "is_published": null,
+          "raw_source_name": null,
+          "raw_type": ""
+        }
+      ],
+      "best_oa_location": {
+        "id": "pmh:oai:drops-oai.dagstuhl.de:18394",
+        "is_oa": true,
+        "landing_page_url": "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.ITP.2023.19",
+        "pdf_url": "https://drops.dagstuhl.de/storage/00lipics/lipics-vol268-itp2023/LIPIcs.ITP.2023.19/LIPIcs.ITP.2023.19.pdf",
+        "source": {
+          "id": "https://openalex.org/S4377196569",
+          "display_name": "DROPS (Schloss Dagstuhl – Leibniz Center for Informatics)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I2799853480",
+          "host_organization_name": "Schloss Dagstuhl – Leibniz Center for Informatics",
+          "host_organization_lineage": [
+            "https://openalex.org/I2799853480"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "",
+        "raw_type": "InProceedings"
+      },
+      "sustainable_development_goals": [
+        {
+          "score": 0.550000011920929,
+          "id": "https://metadata.un.org/sdg/4",
+          "display_name": "Quality Education"
+        }
+      ],
+      "awards": [],
+      "funders": [],
+      "has_content": {
+        "grobid_xml": false,
+        "pdf": true
+      },
+      "content_urls": {
+        "pdf": "https://content.openalex.org/works/W4385245566.pdf"
+      },
+      "referenced_works_count": 0,
+      "referenced_works": [],
+      "related_works": [
+        "https://openalex.org/W2099607809",
+        "https://openalex.org/W2395641992",
+        "https://openalex.org/W2807475932",
+        "https://openalex.org/W3021126373",
+        "https://openalex.org/W4280571180",
+        "https://openalex.org/W3066373881",
+        "https://openalex.org/W2426188458",
+        "https://openalex.org/W2903057408",
+        "https://openalex.org/W92588874",
+        "https://openalex.org/W2963991316"
+      ],
+      "abstract_inverted_index": {
+        "As": [
+          0
+        ],
+        "a": [
+          1,
+          79,
+          93,
+          111
+        ],
+        "present": [
+          2,
+          110
+        ],
+        "to": [
+          3,
+          61
+        ],
+        "Mizar": [
+          4,
+          21,
+          34,
+          51,
+          114
+        ],
+        "on": [
+          5,
+          106
+        ],
+        "its": [
+          6
+        ],
+        "50th": [
+          7
+        ],
+        "anniversary,": [
+          8
+        ],
+        "we": [
+          9
+        ],
+        "develop": [
+          10
+        ],
+        "an": [
+          11
+        ],
+        "AI/TP": [
+          12,
+          104
+        ],
+        "system": [
+          13
+        ],
+        "that": [
+          14,
+          90,
+          116
+        ],
+        "automatically": [
+          15,
+          29
+        ],
+        "proves": [
+          16
+        ],
+        "about": [
+          17
+        ],
+        "60%": [
+          18
+        ],
+        "of": [
+          19,
+          32,
+          81,
+          95,
+          97,
+          113
+        ],
+        "the": [
+          20,
+          24,
+          33,
+          37,
+          45,
+          49,
+          55,
+          68,
+          87
+        ],
+        "theorems": [
+          22,
+          35
+        ],
+        "in": [
+          23,
+          48,
+          66
+        ],
+        "hammer": [
+          25
+        ],
+        "setting.": [
+          26
+        ],
+        "We": [
+          27,
+          53,
+          108
+        ],
+        "also": [
+          28,
+          109
+        ],
+        "prove": [
+          30
+        ],
+        "75%": [
+          31
+        ],
+        "when": [
+          36
+        ],
+        "automated": [
+          38
+        ],
+        "provers": [
+          39
+        ],
+        "are": [
+          40
+        ],
+        "helped": [
+          41
+        ],
+        "by": [
+          42
+        ],
+        "using": [
+          43
+        ],
+        "only": [
+          44
+        ],
+        "premises": [
+          46
+        ],
+        "used": [
+          47
+        ],
+        "human-written": [
+          50
+        ],
+        "proofs.": [
+          52
+        ],
+        "describe": [
+          54
+        ],
+        "methods": [
+          56
+        ],
+        "and": [
+          57,
+          70,
+          75,
+          86
+        ],
+        "large-scale": [
+          58
+        ],
+        "experiments": [
+          59
+        ],
+        "leading": [
+          60
+        ],
+        "these": [
+          62
+        ],
+        "results.": [
+          63
+        ],
+        "This": [
+          64
+        ],
+        "includes": [
+          65
+        ],
+        "particular": [
+          67
+        ],
+        "E": [
+          69
+        ],
+        "Vampire": [
+          71
+        ],
+        "provers,": [
+          72
+        ],
+        "their": [
+          73
+        ],
+        "ENIGMA": [
+          74
+        ],
+        "Deepire": [
+          76
+        ],
+        "learning": [
+          77
+        ],
+        "modifications,": [
+          78
+        ],
+        "number": [
+          80
+        ],
+        "learning-based": [
+          82
+        ],
+        "premise": [
+          83
+        ],
+        "selection": [
+          84,
+          112
+        ],
+        "methods,": [
+          85
+        ],
+        "incremental": [
+          88
+        ],
+        "loop": [
+          89
+        ],
+        "interleaves": [
+          91
+        ],
+        "growing": [
+          92
+        ],
+        "corpus": [
+          94
+        ],
+        "millions": [
+          96
+        ],
+        "ATP": [
+          98
+        ],
+        "proofs": [
+          99
+        ],
+        "with": [
+          100
+        ],
+        "training": [
+          101
+        ],
+        "increasingly": [
+          102
+        ],
+        "strong": [
+          103
+        ],
+        "systems": [
+          105
+        ],
+        "them.": [
+          107
+        ],
+        "problems": [
+          115
+        ],
+        "were": [
+          117
+        ],
+        "proved": [
+          118
+        ],
+        "automatically.": [
+          119
+        ]
+      },
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 643
+        },
+        {
+          "year": 2025,
+          "cited_by_count": 16357
+        },
+        {
+          "year": 2024,
+          "cited_by_count": 18408
+        },
+        {
+          "year": 2023,
+          "cited_by_count": 17266
+        },
+        {
+          "year": 2022,
+          "cited_by_count": 9723
+        },
+        {
+          "year": 2021,
+          "cited_by_count": 6292
+        },
+        {
+          "year": 2020,
+          "cited_by_count": 3303
+        },
+        {
+          "year": 2019,
+          "cited_by_count": 1732
+        },
+        {
+          "year": 2018,
+          "cited_by_count": 377
+        },
+        {
+          "year": 2017,
+          "cited_by_count": 10
+        },
+        {
+          "year": 2016,
+          "cited_by_count": 2
+        },
+        {
+          "year": 2013,
+          "cited_by_count": 1
+        }
+      ],
+      "updated_date": "2026-03-14T08:43:22.919905",
+      "created_date": "2023-07-26T00:00:00"
+    },
+    {
+      "id": "https://openalex.org/W4210327135",
+      "doi": "https://doi.org/10.1088/1757-899x/1231/1/011001",
+      "title": "IOP Conference Series: Materials Science and Engineering",
+      "display_name": "IOP Conference Series: Materials Science and Engineering",
+      "relevance_score": 917.6088,
+      "publication_year": 2022,
+      "publication_date": "2022-02-01",
+      "ids": {
+        "openalex": "https://openalex.org/W4210327135",
+        "doi": "https://doi.org/10.1088/1757-899x/1231/1/011001"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "doi:10.1088/1757-899x/1231/1/011001",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1088/1757-899x/1231/1/011001",
+        "pdf_url": "https://iopscience.iop.org/article/10.1088/1757-899X/1231/1/011001/pdf",
+        "source": {
+          "id": "https://openalex.org/S4210189194",
+          "display_name": "IOP Conference Series Materials Science and Engineering",
+          "issn_l": "1757-8981",
+          "issn": [
+            "1757-8981",
+            "1757-899X"
+          ],
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/P4310320083",
+          "host_organization_name": "IOP Publishing",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320083",
+            "https://openalex.org/P4310311669"
+          ],
+          "host_organization_lineage_names": [
+            "IOP Publishing",
+            "Institute of Physics"
+          ],
+          "type": "conference"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "IOP Conference Series: Materials Science and Engineering",
+        "raw_type": "journal-article"
+      },
+      "type": "article",
+      "indexed_in": [
+        "crossref"
+      ],
+      "open_access": {
+        "is_oa": true,
+        "oa_status": "diamond",
+        "oa_url": "https://iopscience.iop.org/article/10.1088/1757-899X/1231/1/011001/pdf",
+        "any_repository_has_fulltext": false
+      },
+      "authorships": [],
+      "institutions": [],
+      "countries_distinct_count": 0,
+      "institutions_distinct_count": 0,
+      "corresponding_author_ids": [],
+      "corresponding_institution_ids": [],
+      "apc_list": null,
+      "apc_paid": null,
+      "fwci": 763.8297,
+      "has_fulltext": false,
+      "cited_by_count": 10376,
+      "citation_normalized_percentile": {
+        "value": 1.0,
+        "is_in_top_1_percent": true,
+        "is_in_top_10_percent": true
+      },
+      "cited_by_percentile_year": {
+        "min": 99,
+        "max": 100
+      },
+      "biblio": {
+        "volume": "1231",
+        "issue": "1",
+        "first_page": "011001",
+        "last_page": "011001"
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T13923",
+        "display_name": "Nuclear and radioactivity studies",
+        "score": 0.9603999853134155,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2213",
+          "display_name": "Safety, Risk, Reliability and Quality"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T13923",
+          "display_name": "Nuclear and radioactivity studies",
+          "score": 0.9603999853134155,
+          "subfield": {
+            "id": "https://openalex.org/subfields/2213",
+            "display_name": "Safety, Risk, Reliability and Quality"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/22",
+            "display_name": "Engineering"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T13465",
+          "display_name": "Graphite, nuclear technology, radiation studies",
+          "score": 0.957099974155426,
+          "subfield": {
+            "id": "https://openalex.org/subfields/2505",
+            "display_name": "Materials Chemistry"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/25",
+            "display_name": "Materials Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T14164",
+          "display_name": "Marine and Offshore Engineering Studies",
+          "score": 0.9333999752998352,
+          "subfield": {
+            "id": "https://openalex.org/subfields/2212",
+            "display_name": "Ocean Engineering"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/22",
+            "display_name": "Engineering"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/agency",
+          "display_name": "Agency (philosophy)",
+          "score": 0.6333974003791809
+        },
+        {
+          "id": "https://openalex.org/keywords/engineering",
+          "display_name": "Engineering",
+          "score": 0.5123418569564819
+        },
+        {
+          "id": "https://openalex.org/keywords/acknowledgement",
+          "display_name": "Acknowledgement",
+          "score": 0.43031543493270874
+        },
+        {
+          "id": "https://openalex.org/keywords/library-science",
+          "display_name": "Library science",
+          "score": 0.41375935077667236
+        },
+        {
+          "id": "https://openalex.org/keywords/political-science",
+          "display_name": "Political science",
+          "score": 0.354754775762558
+        },
+        {
+          "id": "https://openalex.org/keywords/management",
+          "display_name": "Management",
+          "score": 0.3209291696548462
+        },
+        {
+          "id": "https://openalex.org/keywords/sociology",
+          "display_name": "Sociology",
+          "score": 0.20130428671836853
+        },
+        {
+          "id": "https://openalex.org/keywords/social-science",
+          "display_name": "Social science",
+          "score": 0.14261394739151
+        },
+        {
+          "id": "https://openalex.org/keywords/computer-science",
+          "display_name": "Computer science",
+          "score": 0.06955599784851074
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C108170787",
+          "wikidata": "https://www.wikidata.org/wiki/Q3951828",
+          "display_name": "Agency (philosophy)",
+          "level": 2,
+          "score": 0.6333974003791809
+        },
+        {
+          "id": "https://openalex.org/C127413603",
+          "wikidata": "https://www.wikidata.org/wiki/Q11023",
+          "display_name": "Engineering",
+          "level": 0,
+          "score": 0.5123418569564819
+        },
+        {
+          "id": "https://openalex.org/C2777880217",
+          "wikidata": "https://www.wikidata.org/wiki/Q4674282",
+          "display_name": "Acknowledgement",
+          "level": 2,
+          "score": 0.43031543493270874
+        },
+        {
+          "id": "https://openalex.org/C161191863",
+          "wikidata": "https://www.wikidata.org/wiki/Q199655",
+          "display_name": "Library science",
+          "level": 1,
+          "score": 0.41375935077667236
+        },
+        {
+          "id": "https://openalex.org/C17744445",
+          "wikidata": "https://www.wikidata.org/wiki/Q36442",
+          "display_name": "Political science",
+          "level": 0,
+          "score": 0.354754775762558
+        },
+        {
+          "id": "https://openalex.org/C187736073",
+          "wikidata": "https://www.wikidata.org/wiki/Q2920921",
+          "display_name": "Management",
+          "level": 1,
+          "score": 0.3209291696548462
+        },
+        {
+          "id": "https://openalex.org/C144024400",
+          "wikidata": "https://www.wikidata.org/wiki/Q21201",
+          "display_name": "Sociology",
+          "level": 0,
+          "score": 0.20130428671836853
+        },
+        {
+          "id": "https://openalex.org/C36289849",
+          "wikidata": "https://www.wikidata.org/wiki/Q34749",
+          "display_name": "Social science",
+          "level": 1,
+          "score": 0.14261394739151
+        },
+        {
+          "id": "https://openalex.org/C41008148",
+          "wikidata": "https://www.wikidata.org/wiki/Q21198",
+          "display_name": "Computer science",
+          "level": 0,
+          "score": 0.06955599784851074
+        },
+        {
+          "id": "https://openalex.org/C38652104",
+          "wikidata": "https://www.wikidata.org/wiki/Q3510521",
+          "display_name": "Computer security",
+          "level": 1,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C162324750",
+          "wikidata": "https://www.wikidata.org/wiki/Q8134",
+          "display_name": "Economics",
+          "level": 0,
+          "score": 0.0
+        }
+      ],
+      "mesh": [],
+      "locations_count": 1,
+      "locations": [
+        {
+          "id": "doi:10.1088/1757-899x/1231/1/011001",
+          "is_oa": true,
+          "landing_page_url": "https://doi.org/10.1088/1757-899x/1231/1/011001",
+          "pdf_url": "https://iopscience.iop.org/article/10.1088/1757-899X/1231/1/011001/pdf",
+          "source": {
+            "id": "https://openalex.org/S4210189194",
+            "display_name": "IOP Conference Series Materials Science and Engineering",
+            "issn_l": "1757-8981",
+            "issn": [
+              "1757-8981",
+              "1757-899X"
+            ],
+            "is_oa": true,
+            "is_in_doaj": false,
+            "is_core": false,
+            "host_organization": "https://openalex.org/P4310320083",
+            "host_organization_name": "IOP Publishing",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310320083",
+              "https://openalex.org/P4310311669"
+            ],
+            "host_organization_lineage_names": [
+              "IOP Publishing",
+              "Institute of Physics"
+            ],
+            "type": "conference"
+          },
+          "license": "cc-by",
+          "license_id": "https://openalex.org/licenses/cc-by",
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "IOP Conference Series: Materials Science and Engineering",
+          "raw_type": "journal-article"
+        }
+      ],
+      "best_oa_location": {
+        "id": "doi:10.1088/1757-899x/1231/1/011001",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1088/1757-899x/1231/1/011001",
+        "pdf_url": "https://iopscience.iop.org/article/10.1088/1757-899X/1231/1/011001/pdf",
+        "source": {
+          "id": "https://openalex.org/S4210189194",
+          "display_name": "IOP Conference Series Materials Science and Engineering",
+          "issn_l": "1757-8981",
+          "issn": [
+            "1757-8981",
+            "1757-899X"
+          ],
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/P4310320083",
+          "host_organization_name": "IOP Publishing",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320083",
+            "https://openalex.org/P4310311669"
+          ],
+          "host_organization_lineage_names": [
+            "IOP Publishing",
+            "Institute of Physics"
+          ],
+          "type": "conference"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "IOP Conference Series: Materials Science and Engineering",
+        "raw_type": "journal-article"
+      },
+      "sustainable_development_goals": [],
+      "awards": [],
+      "funders": [],
+      "has_content": {
+        "grobid_xml": true,
+        "pdf": true
+      },
+      "content_urls": {
+        "pdf": "https://content.openalex.org/works/W4210327135.pdf",
+        "grobid_xml": "https://content.openalex.org/works/W4210327135.grobid-xml"
+      },
+      "referenced_works_count": 0,
+      "referenced_works": [],
+      "related_works": [
+        "https://openalex.org/W1504381137",
+        "https://openalex.org/W4283656061",
+        "https://openalex.org/W2620413320",
+        "https://openalex.org/W3102611879",
+        "https://openalex.org/W4385757279",
+        "https://openalex.org/W2067129656",
+        "https://openalex.org/W1974563604",
+        "https://openalex.org/W2211012933",
+        "https://openalex.org/W1002241103",
+        "https://openalex.org/W2356873024"
+      ],
+      "abstract_inverted_index": {
+        "International": [
+          0
+        ],
+        "Nuclear": [
+          1,
+          79,
+          85,
+          91
+        ],
+        "Science,": [
+          2
+        ],
+        "Technology": [
+          3,
+          12
+        ],
+        "and": [
+          4,
+          11,
+          132
+        ],
+        "Engineering": [
+          5
+        ],
+        "Conference": [
+          6
+        ],
+        "2021": [
+          7,
+          25,
+          127
+        ],
+        "(iNuSTEC2021)": [
+          8
+        ],
+        "“Nuclear": [
+          9
+        ],
+        "Science": [
+          10
+        ],
+        "for": [
+          13
+        ],
+        "Socio-economic": [
+          14
+        ],
+        "Development”": [
+          15
+        ],
+        "Universiti": [
+          16,
+          32,
+          37,
+          43,
+          48,
+          54,
+          60,
+          67,
+          72,
+          98,
+          103,
+          109
+        ],
+        "Teknologi": [
+          17,
+          33,
+          38,
+          44,
+          49,
+          55,
+          61,
+          68,
+          73,
+          110
+        ],
+        "Malaysia": [
+          18,
+          22,
+          34,
+          39,
+          45,
+          50,
+          56,
+          62,
+          69,
+          74,
+          100
+        ],
+        "(UTM)": [
+          19
+        ],
+        "Skudai,": [
+          20
+        ],
+        "Johor,": [
+          21
+        ],
+        "10-12": [
+          23
+        ],
+        "October": [
+          24
+        ],
+        "Editors": [
+          26
+        ],
+        "Nahrul": [
+          27
+        ],
+        "Khair": [
+          28
+        ],
+        "Alang": [
+          29
+        ],
+        "Md": [
+          30
+        ],
+        "Rashid,": [
+          31
+        ],
+        "Khaidzir": [
+          35
+        ],
+        "Hamzah,": [
+          36
+        ],
+        "Mohsin": [
+          40
+        ],
+        "Mohd": [
+          41,
+          65
+        ],
+        "Sies,": [
+          42
+        ],
+        "Jasman": [
+          46
+        ],
+        "Zainal,": [
+          47
+        ],
+        "Muhammad": [
+          51,
+          57
+        ],
+        "Arif": [
+          52
+        ],
+        "Sazali,": [
+          53
+        ],
+        "Syahir": [
+          58
+        ],
+        "Sarkawi,": [
+          59
+        ],
+        "Nur": [
+          63
+        ],
+        "Syazwani": [
+          64
+        ],
+        "Ali,": [
+          66
+        ],
+        "Khairulnadzmi": [
+          70
+        ],
+        "Jamaluddin,": [
+          71
+        ],
+        "Abdul": [
+          75
+        ],
+        "Aziz": [
+          76
+        ],
+        "Mohamed,": [
+          77,
+          97,
+          102
+        ],
+        "Malaysian": [
+          78,
+          84,
+          90
+        ],
+        "Society": [
+          80
+        ],
+        "Faridah": [
+          81
+        ],
+        "Mohamad": [
+          82
+        ],
+        "Idris,": [
+          83
+        ],
+        "Agency": [
+          86,
+          92
+        ],
+        "Julie": [
+          87
+        ],
+        "Andrianny": [
+          88
+        ],
+        "Murshidi,": [
+          89
+        ],
+        "Faizal": [
+          93
+        ],
+        "K": [
+          94
+        ],
+        "P": [
+          95
+        ],
+        "Kunchi": [
+          96
+        ],
+        "Kebangsaan": [
+          99
+        ],
+        "Hassan": [
+          101,
+          107
+        ],
+        "Tenaga": [
+          104
+        ],
+        "Nasional": [
+          105
+        ],
+        "Abu": [
+          106
+        ],
+        "Husin,": [
+          108
+        ],
+        "MARA": [
+          111
+        ],
+        "All": [
+          112
+        ],
+        "papers": [
+          113
+        ],
+        "have": [
+          114
+        ],
+        "been": [
+          115
+        ],
+        "peer-reviewed": [
+          116
+        ],
+        "List": [
+          117
+        ],
+        "of": [
+          118
+        ],
+        "Supporting/Sponsoring": [
+          119
+        ],
+        "Organisations,": [
+          120
+        ],
+        "Preface,": [
+          121
+        ],
+        "Contents,": [
+          122
+        ],
+        "iNuSTEC2021": [
+          123
+        ],
+        "Organising": [
+          124
+        ],
+        "Committee,": [
+          125
+        ],
+        "Inustec": [
+          126
+        ],
+        "Awards": [
+          128
+        ],
+        "And": [
+          129
+        ],
+        "Recognition,": [
+          130
+        ],
+        "Acknowledgement": [
+          131
+        ],
+        "Images": [
+          133
+        ],
+        "are": [
+          134
+        ],
+        "available": [
+          135
+        ],
+        "in": [
+          136
+        ],
+        "this": [
+          137
+        ],
+        "pdf": [
+          138
+        ]
+      },
+      "counts_by_year": [
+        {
+          "year": 2025,
+          "cited_by_count": 1648
+        },
+        {
+          "year": 2024,
+          "cited_by_count": 2104
+        },
+        {
+          "year": 2023,
+          "cited_by_count": 1689
+        },
+        {
+          "year": 2022,
+          "cited_by_count": 1330
+        },
+        {
+          "year": 2021,
+          "cited_by_count": 1049
+        },
+        {
+          "year": 2020,
+          "cited_by_count": 920
+        },
+        {
+          "year": 2019,
+          "cited_by_count": 700
+        },
+        {
+          "year": 2018,
+          "cited_by_count": 556
+        },
+        {
+          "year": 2017,
+          "cited_by_count": 247
+        },
+        {
+          "year": 2016,
+          "cited_by_count": 74
+        },
+        {
+          "year": 2015,
+          "cited_by_count": 32
+        },
+        {
+          "year": 2014,
+          "cited_by_count": 11
+        },
+        {
+          "year": 2013,
+          "cited_by_count": 7
+        },
+        {
+          "year": 2012,
+          "cited_by_count": 7
+        }
+      ],
+      "updated_date": "2025-11-06T03:46:38.306776",
+      "created_date": "2022-02-08T00:00:00"
+    }
+  ],
+  "group_by": []
+}

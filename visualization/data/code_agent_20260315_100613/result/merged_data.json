@@ -1,0 +1,212 @@
+{
+  "nodes": [
+    {
+      "abstract": "Radiation resistant camera system was constructed for monitoring deuterium plasma discharges in the Large Helical Device (LHD). This system has contributed to safe operation during two experimental campaigns without serious problems due to radiation (neutrons and gamma-rays). The cameras steadily functioned even in the plasma discharge with the maximum neutron emission rate in FY 2017, though some bright specks temporarily appeared on the images. The cameras have been installed in shield boxes which consist of lead boxes covered with 10% borated polyethylene blocks in all directions. For optimizing the design of the shield box, the radiation flux distribution was calculated by MCNP-6 code, which reveals the reduction of the radiation flux and the change of the energy spectra in the shield box. Thanks to the optimization, significant extension of the lifetime of the cameras has been realized. Investigation of the influence of the radiation on the CCD image sensor shows that the number of bright specks generally increases with the radiation flux to the camera, which also indicates that some bright specks disappear by the self-annealing process on the image sensor. This phenomenon also highly contributes to the further extension of the lifetime of the radiation resistant cameras.",
+      "authors": "M. Shoji, LHD Experiment Group",
+      "citationCount": 801217,
+      "id": "https://openalex.org/W3038568908",
+      "name": "Radiation Resistant Camera System for Monitoring Deuterium Plasma Discharges in the Large Helical Device",
+      "referenceCount": 8,
+      "survey": false,
+      "topic": 0,
+      "topicDist": {
+        "0": 1.0,
+        "1": 1.0,
+        "2": 1.0
+      },
+      "venu": "Plasma and Fusion Research",
+      "year": 2020,
+      "isKeyPaper": 1,
+      "topics": [
+        "0",
+        "1",
+        "2"
+      ]
+    },
+    {
+      "abstract": "",
+      "authors": "Charles R. Harris, K. Jarrod Millman, Stéfan J. van der Walt, Ralf Gommers, Pauli Virtanen, David Cournapeau, Eric Wieser, Julian Taylor, Sebastian Berg, Nathaniel J. Smith, Robert Kern, Matti Picus, Stephan Hoyer, Marten H. van Kerkwijk, Matthew Brett, Allan Haldane, Jaime Fernández del Río, Mark Wiebe, Pearu Peterson, Pierre Gérard-Marchant, Kevin Sheppard, Tyler Reddy, Warren Weckesser, Hameer Abbasi, Christoph Gohlke, Travis E. Oliphant",
+      "citationCount": 20669,
+      "id": "https://openalex.org/W3035965352",
+      "name": "Array programming with NumPy",
+      "referenceCount": 41,
+      "survey": false,
+      "topic": 0,
+      "topicDist": {
+        "0": 1.0,
+        "2": 1.0
+      },
+      "venu": "Nature",
+      "year": 2020,
+      "isKeyPaper": 1,
+      "topics": [
+        "0",
+        "2"
+      ]
+    },
+    {
+      "abstract": "The Coding Manual fourth edition is reformatted to 15 chapters and divided into three parts, as opposed to six chapters in the third edition. This provides readers with more straightforward yet more detailed sectional references. The fourth edition also introduces two new first-cycle coding methods, 'metaphor coding' and 'theming the data categorically.' The fourth edition is aptly suited as a guide for teaching contexts for coding processes, given the provision of a companion website with student exercises and digital content. This includes screenshots of relevant academic software for analyzing the material and detailed thematic mapping diagrams. Furthermore, this book can assist novice researchers in determining the appropriate approaches to reinforce their perspectives and provide incremental processes for qualitative coding data.",
+      "authors": "Maria Lungu",
+      "citationCount": 10910,
+      "id": "https://openalex.org/W4281564584",
+      "name": "The Coding Manual for Qualitative Researchers",
+      "referenceCount": 14,
+      "survey": false,
+      "topic": 0,
+      "topicDist": {
+        "0": 1.0,
+        "1": 1.0,
+        "2": 1.0
+      },
+      "venu": "American Journal of Qualitative Research",
+      "year": 2022,
+      "isKeyPaper": 1,
+      "topics": [
+        "0",
+        "1",
+        "2"
+      ]
+    },
+    {
+      "abstract": "",
+      "authors": "Pauli Virtanen, Ralf Gommers, Travis E. Oliphant, Matt Haberland, Tyler Reddy, David Cournapeau, Evgeni Burovski, Pearu Peterson, Warren Weckesser, Jonathan Bright, Stéfan J. van der Walt, Matthew Brett, Joshua Wilson, K. Jarrod Millman, Nikolay Mayorov, Andrew R. J. Nelson, Eric Jones, Robert Kern, Eric Larson, C J Carey, İlhan Polat, Yu Feng, Eric W. Moore, Jake VanderPlas, Denis Laxalde, Josef Perktold, Robert Cimrman, Ian Henriksen, E. A. Quintero, Charles R. Harris, Anne M. Archibald, Antônio H. Ribeiro, Fabian Pedregosa, Paul van Mulbregt, SciPy 1.0 Contributors, Aditya Vijaykumar, Alessandro Pietro Bardelli, Alex Rothberg, Andreas Hilboll, Andreas Kloeckner, Anthony Scopatz, Antony Lee, Ariel Rokem, C. Nathan Woods, Chad Fulton, Charles Masson, Christian Häggström, Clark Fitzgerald, David A. Nicholson, David R. Hagen, Dmitrii V. Pasechnik, Emanuele Olivetti, Eric Martin, Eric Wieser, Fabrice Silva, Felix Lenders, Florian Wilhelm, G. Young, Gavin A. Price, Gert-Ludwig Ingold, Gregory E. Allen, Gregory R. Lee, Hervé Audren, Irvin Probst, Jörg P. Dietrich, Jacob Silterra, James T Webber, Janko Slavič, Joel Nothman, Johannes Buchner, Johannes Kulick, Johannes L. Schönberger, José Vinícius de Miranda Cardoso, Joscha Reimer, Joseph Harrington, Juan Luis Cano Rodríguez, Juan Nunez-Iglesias, Justin Kuczynski, Kevin Tritz, Martin Thoma, Matthew Newville, Matthias Kümmerer, Maximilian Bolingbroke, Michael Tartre, Mikhail Pak, Nathaniel J. Smith, Nikolai Nowaczyk, Nikolay Shebanov, Oleksandr Pavlyk, Per A. Brodtkorb, Perry Lee, Robert T. McGibbon, Roman Feldbauer, Sam Lewis, Sam Tygier, Scott Sievert, Sebastiano Vigna, Stefan Peterson, Surhud More, Tadeusz Pudlik",
+      "citationCount": 35633,
+      "id": "https://openalex.org/W3003257820",
+      "name": "SciPy 1.0: fundamental algorithms for scientific computing in Python",
+      "referenceCount": 70,
+      "survey": false,
+      "topic": 0,
+      "topicDist": {
+        "0": 1.0
+      },
+      "venu": "Nature Methods",
+      "year": 2020,
+      "isKeyPaper": 1,
+      "topics": [
+        "0"
+      ]
+    },
+    {
+      "abstract": "",
+      "authors": "Vei Wang, Nan Xu, Jincheng Liu, Gang Tang, W. T. Geng",
+      "citationCount": 6573,
+      "id": "https://openalex.org/W3038025793",
+      "name": "VASPKIT: A user-friendly interface facilitating high-throughput computing and analysis using VASP code",
+      "referenceCount": 104,
+      "survey": false,
+      "topic": 0,
+      "topicDist": {
+        "0": 1.0
+      },
+      "venu": "Computer Physics Communications",
+      "year": 2021,
+      "isKeyPaper": 1,
+      "topics": [
+        "0"
+      ]
+    },
+    {
+      "abstract": "",
+      "authors": "Paul A. Harris, Robert J. Taylor, Brenda L. Minor, Veida Elliott, Michelle Fernández, Lindsay O’Neal, Laura McLeod, Giovanni Delacqua, Francesco Delacqua, Jacqueline Kirby, Stephany N. Duda",
+      "citationCount": 22692,
+      "id": "https://openalex.org/W2944434778",
+      "name": "The REDCap consortium: Building an international community of software platform partners",
+      "referenceCount": 63,
+      "survey": false,
+      "topic": 1,
+      "topicDist": {
+        "1": 1.0
+      },
+      "venu": "Journal of Biomedical Informatics",
+      "year": 2019,
+      "isKeyPaper": 1,
+      "topics": [
+        "1"
+      ]
+    },
+    {
+      "abstract": "As a present to Mizar on its 50th anniversary, we develop an AI/TP system that automatically proves about 60% of the Mizar theorems in the hammer setting. We also automatically prove 75% of the Mizar theorems when the automated provers are helped by using only the premises used in the human-written Mizar proofs. We describe the methods and large-scale experiments leading to these results. This includes in particular the E and Vampire provers, their ENIGMA and Deepire learning modifications, a number of learning-based premise selection methods, and the incremental loop that interleaves growing a corpus of millions of ATP proofs with training increasingly strong AI/TP systems on them. We also present a selection of Mizar problems that were proved automatically.",
+      "authors": "Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N. Gomez, Łukasz Kaiser, Illia Polosukhin, Urban, Josef",
+      "citationCount": 74119,
+      "id": "https://openalex.org/W4385245566",
+      "name": "MizAR 60 for Mizar 50",
+      "referenceCount": 0,
+      "survey": false,
+      "topic": 1,
+      "topicDist": {
+        "1": 1.0
+      },
+      "venu": "DROPS (Schloss Dagstuhl – Leibniz Center for Informatics)",
+      "year": 2023,
+      "isKeyPaper": 1,
+      "topics": [
+        "1"
+      ]
+    },
+    {
+      "abstract": "International Nuclear Science, Technology and Engineering Conference 2021 (iNuSTEC2021) “Nuclear Science and Technology for Socio-economic Development” Universiti Teknologi Malaysia (UTM) Skudai, Johor, Malaysia 10-12 October 2021 Editors Nahrul Khair Alang Md Rashid, Universiti Teknologi Malaysia Khaidzir Hamzah, Universiti Teknologi Malaysia Mohsin Mohd Sies, Universiti Teknologi Malaysia Jasman Zainal, Universiti Teknologi Malaysia Muhammad Arif Sazali, Universiti Teknologi Malaysia Muhammad Syahir Sarkawi, Universiti Teknologi Malaysia Nur Syazwani Mohd Ali, Universiti Teknologi Malaysia Khairulnadzmi Jamaluddin, Universiti Teknologi Malaysia Abdul Aziz Mohamed, Malaysian Nuclear Society Faridah Mohamad Idris, Malaysian Nuclear Agency Julie Andrianny Murshidi, Malaysian Nuclear Agency Faizal K P Kunchi Mohamed, Universiti Kebangsaan Malaysia Hassan Mohamed, Universiti Tenaga Nasional Abu Hassan Husin, Universiti Teknologi MARA All papers have been peer-reviewed List of Supporting/Sponsoring Organisations, Preface, Contents, iNuSTEC2021 Organising Committee, Inustec 2021 Awards And Recognition, Acknowledgement and Images are available in this pdf",
+      "authors": "",
+      "citationCount": 10376,
+      "id": "https://openalex.org/W4210327135",
+      "name": "IOP Conference Series: Materials Science and Engineering",
+      "referenceCount": 0,
+      "survey": false,
+      "topic": 1,
+      "topicDist": {
+        "1": 1.0
+      },
+      "venu": "IOP Conference Series Materials Science and Engineering",
+      "year": 2022,
+      "isKeyPaper": 1,
+      "topics": [
+        "1"
+      ]
+    },
+    {
+      "abstract": "",
+      "authors": "Ben Mildenhall, Pratul P. Srinivasan, Matthew Tancik, Jonathan T. Barron, Ravi Ramamoorthi, Ren Ng",
+      "citationCount": 4494,
+      "id": "https://openalex.org/W3109585842",
+      "name": "NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis",
+      "referenceCount": 60,
+      "survey": false,
+      "topic": 2,
+      "topicDist": {
+        "2": 1.0
+      },
+      "venu": "Lecture notes in computer science",
+      "year": 2020,
+      "isKeyPaper": 1,
+      "topics": [
+        "2"
+      ]
+    },
+    {
+      "abstract": "Deep learning has revolutionized many machine learning tasks in recent years, ranging from image classification and video processing to speech recognition and natural language understanding. The data in these tasks are typically represented in the Euclidean space. However, there is an increasing number of applications, where data are generated from non-Euclidean domains and are represented as graphs with complex relationships and interdependency between objects. The complexity of graph data has imposed significant challenges on the existing machine learning algorithms. Recently, many studies on extending deep learning approaches for graph data have emerged. In this article, we provide a comprehensive overview of graph neural networks (GNNs) in data mining and machine learning fields. We propose a new taxonomy to divide the state-of-the-art GNNs into four categories, namely, recurrent GNNs, convolutional GNNs, graph autoencoders, and spatial-temporal GNNs. We further discuss the applications of GNNs across various domains and summarize the open-source codes, benchmark data sets, and model evaluation of GNNs. Finally, we propose potential research directions in this rapidly growing field.",
+      "authors": "Zonghan Wu, Shirui Pan, Fengwen Chen, Guodong Long, Chengqi Zhang, Philip S. Yu",
+      "citationCount": 8582,
+      "id": "https://openalex.org/W2907492528",
+      "name": "A Comprehensive Survey on Graph Neural Networks",
+      "referenceCount": 167,
+      "survey": false,
+      "topic": 2,
+      "topicDist": {
+        "2": 1.0
+      },
+      "venu": "IEEE Transactions on Neural Networks and Learning Systems",
+      "year": 2020,
+      "isKeyPaper": 1,
+      "topics": [
+        "2"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "https://openalex.org/W3035965352",
+      "target": "https://openalex.org/W3003257820",
+      "extends_prob": 1.0,
+      "citation_context": null
+    }
+  ]
+}
