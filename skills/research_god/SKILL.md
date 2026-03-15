@@ -31,7 +31,7 @@ description: "Builds a literature dataset from OpenAlex and produces PrismViz-re
 
 2) Build `topic.json`
 
-- Extract 2-3 topics from user intent.
+- Extract 10 topics from user intent.
 - For each topic, generate keywords separated by spaces.
 - Write to `visualization/data/<run_id>/topic.json`:
 
@@ -54,8 +54,8 @@ python3 /root/GeneticFlowAgent/skills/research_god/scripts/openalex_batch_downlo
   --raw-output-dir /root/GeneticFlowAgent/visualization/data/<run_id>/raw \
   --mode OR \
   --max-keywords 4 \
-  --per-page 5 --page 1 \
-  --filter "from_publication_date:2018-01-01,to_publication_date:2024-12-31" \
+  --per-page 40 --page 1 \
+  --filter "from_publication_date:2016-01-01,to_publication_date:2024-12-31" \
   --topic-dist-value 1.0 \
   --continue-on-error
 ```
