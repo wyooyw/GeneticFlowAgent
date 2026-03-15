@@ -5,7 +5,7 @@ import json
 import logging
 import os
 import sys
-from typing import Any, Dict, List, Optional, Tuple
+from typing import Any, Dict, List, Optional, Set, Tuple
 
 
 def _load_local_modules() -> None:
@@ -52,6 +52,42 @@ def _sort_topic_items(d: Dict[str, Any]) -> List[Tuple[str, Any]]:
         return (1, str(k))
 
     return sorted(d.items(), key=key_fn)
+
+
+def _sorted_topic_ids(topic_ids: Set[str]) -> List[str]:
+    numeric = []
+    other = []
+    for t in topic_ids:
+        if isinstance(t, str) and t.isdigit():
+            numeric.append(int(t))
+        else:
+            other.append(str(t))
+    return [str(n) for n in sorted(numeric)] + sorted(other)
+
+
+def _merge_node_fields(dst: Dict[str, Any], src: Dict[str, Any]) -> None:
+    for k in ["name", "authors", "abstract", "venu"]:
+        if (not isinstance(dst.get(k), str) or not dst.get(k).strip()) and isinstance(src.get(k), str) and src.get(k).strip():
+            dst[k] = src[k]
+
+    for k in ["year", "citationCount", "referenceCount"]:
+        if isinstance(src.get(k), int):
+            if not isinstance(dst.get(k), int) or src[k] > dst[k]:
+                dst[k] = src[k]
+
+    dst_refs = dst.get("referenced_works")
+    src_refs = src.get("referenced_works")
+    if not isinstance(dst_refs, list):
+        dst_refs = []
+    if not isinstance(src_refs, list):
+        src_refs = []
+    merged_refs = []
+    seen = set()
+    for r in dst_refs + src_refs:
+        if isinstance(r, str) and r and r not in seen:
+            seen.add(r)
+            merged_refs.append(r)
+    dst["referenced_works"] = merged_refs
 
 
 def main(argv: Optional[List[str]] = None) -> int:
@@ -143,6 +179,8 @@ def main(argv: Optional[List[str]] = None) -> int:
     ok = 0
     failed = 0
 
+    merged_nodes_by_id: Dict[str, Dict[str, Any]] = {}
+    merged_topics_by_id: Dict[str, Set[str]] = {}
     for topic_id, raw_keywords in _sort_topic_items(topics_payload):
         total += 1
         topic_value = _as_int_if_possible(str(topic_id))
@@ -189,10 +227,26 @@ def main(argv: Optional[List[str]] = None) -> int:
                 keep_external_edges=args.keep_external_edges,
             )
 
+            topic_str = str(topic_id)
+            nodes_only = {"nodes": output.get("nodes", [])}
+
             out_path = os.path.join(args.output_dir, f"{topic_id}.json")
             with open(out_path, "w", encoding="utf-8") as f:
-                json.dump(output, f, ensure_ascii=False, indent=2)
+                json.dump(nodes_only, f, ensure_ascii=False, indent=2)
                 f.write("\n")
+
+            for node in nodes_only["nodes"]:
+                if not isinstance(node, dict):
+                    continue
+                nid = node.get("id")
+                if not isinstance(nid, str) or not nid:
+                    continue
+                if nid not in merged_nodes_by_id:
+                    merged_nodes_by_id[nid] = dict(node)
+                    merged_topics_by_id[nid] = set()
+                else:
+                    _merge_node_fields(merged_nodes_by_id[nid], node)
+                merged_topics_by_id[nid].add(topic_str)
 
             meta = payload.get("meta") if isinstance(payload, dict) else None
             if isinstance(meta, dict):
@@ -236,7 +290,51 @@ def main(argv: Optional[List[str]] = None) -> int:
                 continue
             raise
 
-    logger.info("Done. topics=%d ok=%d failed=%d output_dir=%s", total, ok, failed, args.output_dir)
+    merged_ids = set(merged_nodes_by_id.keys())
+
+    edge_pairs: Set[Tuple[str, str]] = set()
+    for nid, node in merged_nodes_by_id.items():
+        src = node.get("id")
+        if not isinstance(src, str) or not src:
+            src = nid
+        refs = node.get("referenced_works")
+        if not isinstance(refs, list):
+            continue
+        for tgt in refs:
+            if isinstance(tgt, str) and tgt and tgt in merged_ids:
+                edge_pairs.add((src, tgt))
+
+    merged_nodes: List[Dict[str, Any]] = []
+    for nid, node in merged_nodes_by_id.items():
+        node_out = dict(node)
+        topic_ids = merged_topics_by_id.get(nid) or set()
+        topics_sorted = _sorted_topic_ids(set(str(t) for t in topic_ids))
+        node_out["topics"] = topics_sorted
+        if topics_sorted:
+            node_out["topic"] = int(topics_sorted[0]) if topics_sorted[0].isdigit() else topics_sorted[0]
+            node_out["topicDist"] = {t: args.topic_dist_value for t in topics_sorted}
+        node_out.pop("referenced_works", None)
+        merged_nodes.append(node_out)
+
+    merged_edges = [
+        {"source": s, "target": t, "extends_prob": 1.0, "citation_context": None}
+        for (s, t) in sorted(edge_pairs)
+    ]
+
+    merged_path = os.path.join(args.output_dir, "merged_data.json")
+    with open(merged_path, "w", encoding="utf-8") as f:
+        json.dump({"nodes": merged_nodes, "edges": merged_edges}, f, ensure_ascii=False, indent=2)
+        f.write("\n")
+
+    logger.info(
+        "Done. topics=%d ok=%d failed=%d output_dir=%s merged_nodes=%d merged_edges=%d",
+        total,
+        ok,
+        failed,
+        args.output_dir,
+        len(merged_nodes),
+        len(merged_edges),
+    )
     return 0 if failed == 0 else 2
 
 

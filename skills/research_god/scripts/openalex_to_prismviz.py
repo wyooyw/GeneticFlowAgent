@@ -195,6 +195,15 @@ def convert_openalex_result(
 
         authors_str = _extract_authors(work)
 
+        referenced_list: List[str] = []
+        referenced = work.get("referenced_works")
+        if isinstance(referenced, list):
+            for ref in referenced:
+                if isinstance(ref, str) and ref.strip():
+                    rid = ref.strip()
+                    referenced_list.append(rid)
+                    edges_raw.append((work_id, rid))
+
         node = {
             "abstract": abstract,
             "authors": authors_str,
@@ -208,14 +217,9 @@ def convert_openalex_result(
             "venu": venue_str,
             "year": year_int,
             "isKeyPaper": 1,
+            "referenced_works": referenced_list,
         }
         nodes.append(node)
-
-        referenced = work.get("referenced_works")
-        if isinstance(referenced, list):
-            for ref in referenced:
-                if isinstance(ref, str) and ref.strip():
-                    edges_raw.append((work_id, ref.strip()))
 
     if dropped_no_id:
         logger.warning("Dropped %d works without a valid `id`", dropped_no_id)
