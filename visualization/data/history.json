@@ -1,0 +1,24 @@
+[
+  {
+    "title": "稀疏矩阵乘法研究",
+    "query": "sparse_matrix_20260315_105340",
+    "startYear": 2016,
+    "endYear": 2024,
+    "source": "openalex",
+    "status": "finished",
+    "paperCount": 254,
+    "startedAt": "2026-03-15 10:55",
+    "finishedAt": "2026-03-15 10:56"
+  },
+  {
+    "title": "图可视化研究",
+    "query": "graph_visualization_20260315_110600",
+    "startYear": 2016,
+    "endYear": 2024,
+    "source": "openalex",
+    "status": "finished",
+    "paperCount": 163,
+    "startedAt": "2026-03-15 11:06",
+    "finishedAt": "2026-03-15 11:06"
+  }
+]
