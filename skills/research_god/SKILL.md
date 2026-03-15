@@ -9,12 +9,12 @@ description: "Builds a literature dataset from OpenAlex and produces PrismViz-re
 
 - Do NOT write ad-hoc scripts for JSON processing.
 - Do NOT re-implement download/convert logic in the chat.
-- MUST use the existing scripts under `skills/research_god/scripts/`.
+- MUST use the existing scripts under `/root/GeneticFlowAgent/skills/research_god/scripts/`.
 - If a required script/arg is missing or fails, report the error and fix the existing script instead of creating new code.
 
 ## Goal
 
-- Produce reproducible artifacts under `visualization/data/<run_id>/`.
+- Produce reproducible artifacts under `/root/GeneticFlowAgent/visualization/data/<run_id>/`.
 - MUST return a working visualization URL at the end (otherwise the run is considered failed).
 
 ## What to Do When Invoked
@@ -23,11 +23,11 @@ description: "Builds a literature dataset from OpenAlex and produces PrismViz-re
 
 1) Create run directory
 
-- Create a unique `visualization/data/<run_id>/`.
+- Create a unique `/root/GeneticFlowAgent/visualization/data/<run_id>/`.
 - Layout:
-  - `visualization/data/<run_id>/topic.json`
-  - `visualization/data/<run_id>/raw/`
-  - `visualization/data/<run_id>/result/`
+  - `/root/GeneticFlowAgent/visualization/data/<run_id>/topic.json`
+  - `/root/GeneticFlowAgent/visualization/data/<run_id>/raw/`
+  - `/root/GeneticFlowAgent/visualization/data/<run_id>/result/`
 
 2) Build `topic.json`
 
@@ -48,10 +48,10 @@ description: "Builds a literature dataset from OpenAlex and produces PrismViz-re
 - Execute:
 
 ```
-python3 ~/GeneticFlowAgent/visualization/skills/research_god/scripts/openalex_batch_download_convert.py \
-  --topics ~/GeneticFlowAgent/visualization/data/<run_id>/topic.json \
-  --output-dir ~/GeneticFlowAgent/visualization/data/<run_id>/result \
-  --raw-output-dir ~/GeneticFlowAgent/visualization/data/<run_id>/raw \
+python3 /root/GeneticFlowAgent/skills/research_god/scripts/openalex_batch_download_convert.py \
+  --topics /root/GeneticFlowAgent/visualization/data/<run_id>/topic.json \
+  --output-dir /root/GeneticFlowAgent/visualization/data/<run_id>/result \
+  --raw-output-dir /root/GeneticFlowAgent/visualization/data/<run_id>/raw \
   --mode OR \
   --max-keywords 4 \
   --per-page 5 --page 1 \
@@ -65,5 +65,5 @@ python3 ~/GeneticFlowAgent/visualization/skills/research_god/scripts/openalex_ba
 - Return:
 
 ```
-http://localhost:8000/visualization/index.html?data=data/<run_id>/result/merged_data.json
+http://118.196.117.128:80?data=data/<run_id>/result/merged_data.json
 ```
