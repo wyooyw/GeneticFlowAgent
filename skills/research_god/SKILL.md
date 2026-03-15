@@ -14,7 +14,8 @@ description: "Builds a literature dataset from OpenAlex and produces PrismViz-re
 
 ## Goal
 
-- Produce reproducible artifacts under `visualization/data/<run_id>/` and return a working URL that loads `data/<run_id>/result/<topic_id>.json`.
+- Produce reproducible artifacts under `visualization/data/<run_id>/`.
+- MUST return a working visualization URL at the end (otherwise the run is considered failed).
 
 ## What to Do When Invoked
 
@@ -64,5 +65,5 @@ python3 ~/GeneticFlowAgent/visualization/skills/research_god/scripts/openalex_ba
 - Return:
 
 ```
-http://localhost:8000/visualization/index.html?data=data/<run_id>/result/0.json
+http://localhost:8000/visualization/index.html?data=data/<run_id>/result/merged_data.json
 ```
